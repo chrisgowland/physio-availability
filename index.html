@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nuffield Health – Physio Availability Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -12,9 +15,9 @@
   <header class="site-header">
     <div class="header-inner">
       <div class="header-brand">
-        <svg class="brand-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <circle cx="18" cy="18" r="18" fill="#00A8A8"/>
-          <path d="M11 18h14M18 11v14" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+        <svg class="brand-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="40" height="40" rx="4" fill="#00a200"/>
+          <path d="M13 20h14M20 13v14" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
         </svg>
         <div>
           <span class="brand-name">Nuffield Health</span>
@@ -48,6 +51,14 @@
     <div class="stat-card stat-card--blue">
       <span class="stat-value" id="statTotalSlots">–</span>
       <span class="stat-label">Total Appointments (4 wks)</span>
+    </div>
+    <div class="stat-card stat-card--amber">
+      <span class="stat-value" id="statNoAppt7Days">–</span>
+      <span class="stat-label">Sites with No Appt (7 days)</span>
+    </div>
+    <div class="stat-card stat-card--purple">
+      <span class="stat-value" id="statAvgSlots">–</span>
+      <span class="stat-label">Avg Appts per Bookable Site (4 wks)</span>
     </div>
   </section>
 
