@@ -66,7 +66,7 @@ HEADERS = {
 # Location page slugs that aren't actual clinic locations
 EXCLUDED_SLUGS = {
     "faqs", "treatments", "online-appointment", "physio-treatments",
-    "physiotherapy", "online", "contact", "help",
+    "physiotherapy", "online", "contact", "help", "why-choose",
 }
 
 MONTH_MAP = {

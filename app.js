@@ -51,32 +51,30 @@ function renderStats(json) {
   const withSlots    = sites.filter(s => s.slots_next_4_weeks > 0).length;
   const totalSlots   = sites.reduce((n, s) => n + (s.slots_next_4_weeks || 0), 0);
 
-  // Sites with no appointment available in the next 7 days
-  const sevenDaysOut = new Date();
-  sevenDaysOut.setDate(sevenDaysOut.getDate() + 7);
-  sevenDaysOut.setHours(23, 59, 59, 999);
-
+  // % sites with no appointment in the next 7 days
+  const now = Date.now();
+  const sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
   const noApptIn7Days = sites.filter(s => {
     if (!s.next_available) return true;
-    const apptDate = new Date(s.next_available.split("T")[0] + "T00:00:00");
-    return apptDate > sevenDaysOut;
+    const apptDate = Date.parse(s.next_available.replace("T", " "));
+    return isNaN(apptDate) || apptDate > now + sevenDaysMs;
   }).length;
   const pctNoAppt7 = sites.length > 0
-    ? Math.round((noApptIn7Days / sites.length) * 100)
-    : 0;
+    ? Math.round((noApptIn7Days / sites.length) * 100) + "%"
+    : "–";
 
   // Average appointments per bookable site over 4 weeks
   const avgSlots = bookable > 0
     ? (totalSlots / bookable).toFixed(1)
-    : "0.0";
+    : "–";
 
-  document.getElementById("statSites").textContent      = sites.length.toLocaleString();
-  document.getElementById("statPhysios").textContent    = totalPhysios.toLocaleString();
-  document.getElementById("statBookable").textContent   = bookable.toLocaleString();
-  document.getElementById("statAvailable").textContent  = withSlots.toLocaleString();
-  document.getElementById("statTotalSlots").textContent = totalSlots.toLocaleString();
-  document.getElementById("statNoAppt7Days").textContent = `${pctNoAppt7}%`;
-  document.getElementById("statAvgSlots").textContent   = avgSlots;
+  document.getElementById("statSites").textContent       = sites.length.toLocaleString();
+  document.getElementById("statPhysios").textContent     = totalPhysios.toLocaleString();
+  document.getElementById("statBookable").textContent    = bookable.toLocaleString();
+  document.getElementById("statAvailable").textContent   = withSlots.toLocaleString();
+  document.getElementById("statTotalSlots").textContent  = totalSlots.toLocaleString();
+  document.getElementById("statNoAppt7Days").textContent = pctNoAppt7;
+  document.getElementById("statAvgSlots").textContent    = avgSlots;
 }
 
 function renderLastUpdated(iso) {

@@ -1,295 +1,9 @@
 {
-  "last_updated": "2026-03-31T14:04:43Z",
-  "scrape_duration_seconds": 200.7,
-  "total_sites": 135,
+  "last_updated": "2026-03-31T14:31:13Z",
+  "scrape_duration_seconds": 196.1,
+  "total_sites": 134,
   "errors": [],
   "sites": [
-    {
-      "slug": "why-choose",
-      "name": "",
-      "type": "gym",
-      "address": "V9I0WY",
-      "phone": "",
-      "pricing": "£72",
-      "location_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-      "booking_url": "https://book.nuffieldhealth.com/physio/appointments/why-choose",
-      "physios": [
-        {
-          "name": "Bishop's Stortford",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Bristol Gym",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Bristol Hospital",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Bristol North",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Brondesbury Park - London",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Cambridge Gym",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Cardiff Bay",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Covent Garden - London",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Croydon Central",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Derby Gym",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "East Kilbride",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Edinburgh Fountain Park",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Edinburgh Omni",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Friern Barnet - London",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Glasgow Giffnock",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Glasgow Gym",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Glasgow Hospital",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Glasgow West End",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Guildford Gym",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Guildford Hospital",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Haywards Heath",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Hemel Hempstead",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Leamington Spa",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Leeds Gym",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Leicester Gym",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Leicester Hospital",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Canary Wharf Medical Centre - London",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "City Gym - London",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "West End - London",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Manchester Printworks (Gym)",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Milton Keynes",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Plymouth Gym",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "St Albans",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Stockley Park",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Stoke Poges",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Taunton Gym",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Taunton Hospital",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "The Vale",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Tunbridge Wells Gym",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Wandsworth Southside",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "West Byfleet",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Wolverhampton Gym",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Wolverhampton Hospital",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "Barbican Medical Centre",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        },
-        {
-          "name": "The Holly",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/why-choose",
-          "bookable_online": false
-        }
-      ],
-      "online_bookable": false,
-      "next_available": null,
-      "slots_next_4_weeks": 0,
-      "physio_count": 45
-    },
     {
       "slug": "aberdeen",
       "name": "Aberdeen Physiotherapy",
@@ -460,6 +174,13 @@
       "booking_url": "https://book.nuffieldhealth.com/physio/appointments/bournemouth",
       "physios": [
         {
+          "name": "Mrs Caroline Hooper",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bournemouth",
+          "id": "0014J00000eZLBVQA4",
+          "bookable_online": true
+        },
+        {
           "name": "Ms Stephanie Sherborne",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bournemouth",
@@ -468,9 +189,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-09T08:30",
-      "slots_next_4_weeks": 1,
-      "physio_count": 1
+      "next_available": "2026-04-01T09:00",
+      "slots_next_4_weeks": 2,
+      "physio_count": 2
     },
     {
       "slug": "brentwood",
@@ -573,8 +294,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-02T08:15",
-      "slots_next_4_weeks": 22,
+      "next_available": "2026-04-02T14:30",
+      "slots_next_4_weeks": 21,
       "physio_count": 2
     },
     {
@@ -1160,7 +881,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-01T14:30",
-      "slots_next_4_weeks": 8,
+      "slots_next_4_weeks": 7,
       "physio_count": 3
     },
     {
@@ -2433,7 +2154,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-07T14:30",
-      "slots_next_4_weeks": 15,
+      "slots_next_4_weeks": 14,
       "physio_count": 3
     },
     {
