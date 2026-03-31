@@ -107,16 +107,8 @@ function bindControls() {
   document.getElementById("modalBackdrop").addEventListener("click", e => {
     if (e.target === document.getElementById("modalBackdrop")) closeModal();
   });
-  document.getElementById("refreshModalClose").addEventListener("click", closeRefreshModal);
-  document.getElementById("refreshModalBackdrop").addEventListener("click", e => {
-    if (e.target === document.getElementById("refreshModalBackdrop")) closeRefreshModal();
-  });
-  document.getElementById("btnRefreshInfo").addEventListener("click", () => {
-    document.getElementById("refreshModalBackdrop").hidden = false;
-  });
-
   document.addEventListener("keydown", e => {
-    if (e.key === "Escape") { closeModal(); closeRefreshModal(); }
+    if (e.key === "Escape") closeModal();
   });
 }
 
@@ -340,10 +332,6 @@ function openPhysioModal(slug) {
 
 function closeModal() {
   document.getElementById("modalBackdrop").hidden = true;
-}
-
-function closeRefreshModal() {
-  document.getElementById("refreshModalBackdrop").hidden = true;
 }
 
 // ============================================================
