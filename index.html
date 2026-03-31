@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuffield Health – Physio Availability Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-brand">
+        <svg class="brand-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="18" cy="18" r="18" fill="#00A8A8"/>
+          <path d="M11 18h14M18 11v14" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <div>
+          <span class="brand-name">Nuffield Health</span>
+          <span class="brand-subtitle">Physio Availability Dashboard</span>
+        </div>
+      </div>
+      <div class="header-meta">
+        <span class="last-updated" id="lastUpdated">Loading…</span>
+        <button class="btn-refresh" id="btnRefreshInfo" title="Data is refreshed by running scraper.py">
+          <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+            <path fill-rule="evenodd" d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z" clip-rule="evenodd"/>
+          </svg>
+          How to refresh
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== STATS BAR ===== -->
+  <section class="stats-bar" id="statsBar">
+    <div class="stat-card">
+      <span class="stat-value" id="statSites">–</span>
+      <span class="stat-label">Total Sites</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-value" id="statPhysios">–</span>
+      <span class="stat-label">Total Physios Listed</span>
+    </div>
+    <div class="stat-card stat-card--green">
+      <span class="stat-value" id="statBookable">–</span>
+      <span class="stat-label">Sites with Online Booking</span>
+    </div>
+    <div class="stat-card stat-card--teal">
+      <span class="stat-value" id="statAvailable">–</span>
+      <span class="stat-label">Sites with Slots (4 wks)</span>
+    </div>
+    <div class="stat-card stat-card--blue">
+      <span class="stat-value" id="statTotalSlots">–</span>
+      <span class="stat-label">Total Appointments (4 wks)</span>
+    </div>
+  </section>
+
+  <!-- ===== CONTROLS ===== -->
+  <section class="controls">
+    <div class="search-wrap">
+      <svg class="search-icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18" aria-hidden="true">
+        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/>
+      </svg>
+      <input type="text" id="searchInput" class="search-input" placeholder="Search by site name or location…" />
+    </div>
+    <div class="filter-group">
+      <label class="filter-label">Type</label>
+      <select id="filterType" class="filter-select">
+        <option value="all">All</option>
+        <option value="gym">Gym</option>
+        <option value="hospital">Hospital / Clinic</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label class="filter-label">Online booking</label>
+      <select id="filterBookable" class="filter-select">
+        <option value="all">All</option>
+        <option value="yes">Bookable online</option>
+        <option value="no">Not online</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label class="filter-label">Availability</label>
+      <select id="filterAvailability" class="filter-select">
+        <option value="all">All</option>
+        <option value="has_slots">Has slots (4 wks)</option>
+        <option value="no_slots">No slots</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label class="filter-label">Sort by</label>
+      <select id="sortSelect" class="filter-select">
+        <option value="name_asc">Name A→Z</option>
+        <option value="slots_desc">Most slots first</option>
+        <option value="next_asc">Next available soonest</option>
+        <option value="physios_desc">Most physios first</option>
+      </select>
+    </div>
+    <div class="controls-right">
+      <span class="showing-count" id="showingCount"></span>
+    </div>
+  </section>
+
+  <!-- ===== MAIN TABLE ===== -->
+  <main class="table-container">
+    <div id="loadingState" class="loading-state">
+      <div class="spinner"></div>
+      <p>Loading site data…</p>
+    </div>
+    <div id="errorState" class="error-state" hidden>
+      <p>Could not load <code>data/sites.json</code>. Run <code>python scraper.py</code> first to generate the data.</p>
+    </div>
+    <table class="sites-table" id="sitesTable" hidden>
+      <thead>
+        <tr>
+          <th class="col-name sortable" data-sort="name_asc">Site</th>
+          <th class="col-type">Type</th>
+          <th class="col-physios sortable" data-sort="physios_desc">Physios</th>
+          <th class="col-bookable">Online Booking</th>
+          <th class="col-next sortable" data-sort="next_asc">Next Available</th>
+          <th class="col-slots sortable" data-sort="slots_desc">Slots (4 wks)</th>
+          <th class="col-actions">Links</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+    <div id="noResults" class="no-results" hidden>
+      <p>No sites match your filters.</p>
+    </div>
+  </main>
+
+  <!-- ===== PHYSIO DETAIL MODAL ===== -->
+  <div class="modal-backdrop" id="modalBackdrop" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modalTitle">Physio Team</h2>
+        <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- ===== REFRESH INFO MODAL ===== -->
+  <div class="modal-backdrop" id="refreshModalBackdrop" hidden>
+    <div class="modal" role="dialog" aria-modal="true">
+      <div class="modal-header">
+        <h2 class="modal-title">How to refresh the data</h2>
+        <button class="modal-close" id="refreshModalClose" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>The data is generated by the Python scraper bundled with this project.</p>
+        <ol>
+          <li>Install dependencies once:<br><code>pip install -r requirements.txt</code></li>
+          <li>Run the scraper:<br><code>python scraper.py</code></li>
+          <li>Reload this page to see updated data.</li>
+        </ol>
+        <p>Options:</p>
+        <ul>
+          <li><code>--limit 10</code> — scrape only 10 sites (fast test)</li>
+          <li><code>--slug cannock</code> — scrape a single site</li>
+          <li><code>--workers 8</code> — increase parallelism</li>
+        </ul>
+        <p>The scraper respects Nuffield Health's servers with gentle rate limiting (0.3 s between requests per thread, 5 threads by default). A full scrape of ~130 sites takes roughly 3–5 minutes.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

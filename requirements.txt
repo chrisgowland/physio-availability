@@ -1,0 +1,8 @@
+# Core dependencies (required)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# Optional: headless browser for JS-rendered physio names (--headless flag)
+# After installing, also run: playwright install chromium
+# playwright>=1.40.0
