@@ -20,11 +20,14 @@ jobs:
           python-version: "3.12"
           cache: "pip"
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt playwright
 
-      - name: Run scraper
-        run: python scraper.py --workers 8
+      - name: Install Playwright Chromium browser
+        run: playwright install chromium --with-deps
+
+      - name: Run scraper (headless mode for full physio names)
+        run: python scraper.py --workers 5 --headless
 
       - name: Commit and push updated data
         run: |
