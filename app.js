@@ -51,9 +51,9 @@ function renderStats(json) {
   const withSlots    = sites.filter(s => s.slots_next_4_weeks > 0).length;
   const totalSlots   = sites.reduce((n, s) => n + (s.slots_next_4_weeks || 0), 0);
 
-  document.getElementById("statSites").textContent    = sites.length.toLocaleString();
-  document.getElementById("statPhysios").textContent  = totalPhysios.toLocaleString();
-  document.getElementById("statBookable").textContent = bookable.toLocaleString();
+  document.getElementById("statSites").textContent     = sites.length.toLocaleString();
+  document.getElementById("statPhysios").textContent   = totalPhysios.toLocaleString();
+  document.getElementById("statBookable").textContent  = bookable.toLocaleString();
   document.getElementById("statAvailable").textContent = withSlots.toLocaleString();
   document.getElementById("statTotalSlots").textContent = totalSlots.toLocaleString();
 }
@@ -89,7 +89,6 @@ function bindControls() {
     th.addEventListener("click", () => {
       const sortKey = th.dataset.sort;
       if (currentSort === sortKey) {
-        // Toggle direction
         currentSort = sortKey.endsWith("_asc")
           ? sortKey.replace("_asc", "_desc")
           : sortKey.replace("_desc", "_asc");
@@ -101,22 +100,13 @@ function bindControls() {
       applyFilters();
     });
   });
-
-  // Modal close
-  document.getElementById("modalClose").addEventListener("click", closeModal);
-  document.getElementById("modalBackdrop").addEventListener("click", e => {
-    if (e.target === document.getElementById("modalBackdrop")) closeModal();
-  });
-  document.addEventListener("keydown", e => {
-    if (e.key === "Escape") closeModal();
-  });
 }
 
 function applyFilters() {
-  const query      = document.getElementById("searchInput").value.trim().toLowerCase();
-  const typeFilter = document.getElementById("filterType").value;
-  const bookFilter = document.getElementById("filterBookable").value;
-  const availFilter= document.getElementById("filterAvailability").value;
+  const query       = document.getElementById("searchInput").value.trim().toLowerCase();
+  const typeFilter  = document.getElementById("filterType").value;
+  const bookFilter  = document.getElementById("filterBookable").value;
+  const availFilter = document.getElementById("filterAvailability").value;
 
   filteredSites = allSites.filter(site => {
     if (query && !site.name.toLowerCase().includes(query) &&
@@ -144,24 +134,15 @@ function applyFilters() {
 function sortSites() {
   filteredSites.sort((a, b) => {
     switch (currentSort) {
-      case "name_asc":
-        return a.name.localeCompare(b.name);
-      case "name_desc":
-        return b.name.localeCompare(a.name);
-      case "slots_desc":
-        return (b.slots_next_4_weeks || 0) - (a.slots_next_4_weeks || 0);
-      case "slots_asc":
-        return (a.slots_next_4_weeks || 0) - (b.slots_next_4_weeks || 0);
-      case "next_asc":
-        return compareNullLast(a.next_available, b.next_available, 1);
-      case "next_desc":
-        return compareNullLast(a.next_available, b.next_available, -1);
-      case "physios_desc":
-        return (b.physio_count || 0) - (a.physio_count || 0);
-      case "physios_asc":
-        return (a.physio_count || 0) - (b.physio_count || 0);
-      default:
-        return a.name.localeCompare(b.name);
+      case "name_asc":   return a.name.localeCompare(b.name);
+      case "name_desc":  return b.name.localeCompare(a.name);
+      case "slots_desc": return (b.slots_next_4_weeks || 0) - (a.slots_next_4_weeks || 0);
+      case "slots_asc":  return (a.slots_next_4_weeks || 0) - (b.slots_next_4_weeks || 0);
+      case "next_asc":   return compareNullLast(a.next_available, b.next_available, 1);
+      case "next_desc":  return compareNullLast(a.next_available, b.next_available, -1);
+      case "physios_desc": return (b.physio_count || 0) - (a.physio_count || 0);
+      case "physios_asc":  return (a.physio_count || 0) - (b.physio_count || 0);
+      default: return a.name.localeCompare(b.name);
     }
   });
 }
@@ -190,7 +171,7 @@ function updateSortHeaders() {
 // ============================================================
 
 function renderTable() {
-  const tbody = document.getElementById("tableBody");
+  const tbody    = document.getElementById("tableBody");
   const noResults = document.getElementById("noResults");
 
   if (filteredSites.length === 0) {
@@ -201,11 +182,6 @@ function renderTable() {
 
   noResults.hidden = true;
   tbody.innerHTML = filteredSites.map(site => renderRow(site)).join("");
-
-  // Bind physio count button clicks
-  tbody.querySelectorAll(".physio-count-btn[data-slug]").forEach(btn => {
-    btn.addEventListener("click", () => openPhysioModal(btn.dataset.slug));
-  });
 }
 
 function renderRow(site) {
@@ -213,8 +189,8 @@ function renderRow(site) {
     ? `<span class="badge badge--hospital">Hospital</span>`
     : `<span class="badge badge--gym">Gym</span>`;
 
-  const physioBtn = (site.physio_count || 0) > 0
-    ? `<button class="physio-count-btn" data-slug="${esc(site.slug)}" title="View physio team">${site.physio_count}</button>`
+  const physioCell = (site.physio_count || 0) > 0
+    ? `<a href="${esc(site.location_url)}" target="_blank" rel="noopener" class="physio-count-btn" title="View physio team on Nuffield Health">${site.physio_count}</a>`
     : `<span class="physio-count-btn physio-count-btn--zero">0</span>`;
 
   const bookable = site.online_bookable
@@ -227,11 +203,8 @@ function renderRow(site) {
 
   const slots = renderSlotsBadge(site.slots_next_4_weeks || 0);
 
-  const bookUrl = site.booking_url;
-  const profileUrl = site.location_url;
-
   const bookLink = site.online_bookable
-    ? `<a href="${esc(bookUrl)}" target="_blank" rel="noopener" class="action-link action-link--book">
+    ? `<a href="${esc(site.booking_url)}" target="_blank" rel="noopener" class="action-link action-link--book">
         <svg width="12" height="12" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/></svg>
         Book now
        </a>`
@@ -243,14 +216,14 @@ function renderRow(site) {
       ${site.address ? `<div class="site-address">${esc(site.address)}</div>` : ""}
     </td>
     <td class="col-type">${typeBadge}</td>
-    <td class="col-physios">${physioBtn}</td>
+    <td class="col-physios">${physioCell}</td>
     <td class="col-bookable">${bookable}</td>
     <td class="col-next">${nextAvail}</td>
     <td class="col-slots">${slots}</td>
     <td class="col-actions">
       <div class="action-links">
         ${bookLink}
-        <a href="${esc(profileUrl)}" target="_blank" rel="noopener" class="action-link">
+        <a href="${esc(site.location_url)}" target="_blank" rel="noopener" class="action-link">
           <svg width="12" height="12" viewBox="0 0 20 20" fill="currentColor"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/></svg>
           Site profile
         </a>
@@ -261,7 +234,6 @@ function renderRow(site) {
 
 function renderNextAvailable(iso) {
   try {
-    // iso may be "2026-04-07T09:00" or "2026-04-07"
     const [datePart, timePart] = iso.split("T");
     const d = new Date(datePart + "T00:00:00");
     const dateStr = d.toLocaleDateString("en-GB", {
@@ -280,58 +252,6 @@ function renderSlotsBadge(count) {
   else if (count >= 5) cls = "slots-badge--mid";
   else if (count > 0)  cls = "slots-badge--low";
   return `<span class="slots-badge ${cls}">${count}</span>`;
-}
-
-// ============================================================
-// Physio modal
-// ============================================================
-
-function openPhysioModal(slug) {
-  const site = allSites.find(s => s.slug === slug);
-  if (!site) return;
-
-  document.getElementById("modalTitle").textContent = `${site.name} — Physio Team`;
-
-  const physios = site.physios || [];
-  let body = "";
-
-  if (physios.length === 0) {
-    body = `<p class="no-physios-msg">No physio profile data scraped for this site. Visit the <a href="${esc(site.location_url)}" target="_blank" rel="noopener">site profile page</a> for staff details.</p>`;
-  } else {
-    const items = physios.map(p => {
-      const tag = p.bookable_online
-        ? `<span class="physio-tag physio-tag--online">Online booking</span>`
-        : `<span class="physio-tag physio-tag--offline">In-clinic only</span>`;
-
-      return `<li class="physio-item">
-        <div class="physio-info">
-          <div class="physio-name">${esc(p.name)}</div>
-          ${p.title ? `<div class="physio-title">${esc(p.title)}</div>` : ""}
-          <div class="physio-tags">${tag}</div>
-        </div>
-        <a href="${esc(p.profile_url || site.location_url)}" target="_blank" rel="noopener" class="physio-link">View profile ↗</a>
-      </li>`;
-    }).join("");
-
-    body = `
-      <p style="margin-bottom:0.75rem;font-size:0.82rem;color:var(--text-muted);">
-        ${physios.length} physio${physios.length !== 1 ? "s" : ""} listed at this site.
-        Profile pages link to the Nuffield Health site page where each physio's full bio is shown.
-      </p>
-      <ul class="physio-list">${items}</ul>
-      <p style="margin-top:0.9rem;">
-        <a href="${esc(site.booking_url)}" target="_blank" rel="noopener" class="action-link action-link--book" style="font-size:0.88rem;">
-          Book an appointment at ${esc(site.name)} ↗
-        </a>
-      </p>`;
-  }
-
-  document.getElementById("modalBody").innerHTML = body;
-  document.getElementById("modalBackdrop").hidden = false;
-}
-
-function closeModal() {
-  document.getElementById("modalBackdrop").hidden = true;
 }
 
 // ============================================================
