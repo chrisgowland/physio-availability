@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function loadData() {
   try {
-    const resp = await fetch("data/sites.json");
+    const resp = await fetch("data/sites.json?v=" + Date.now());
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const json = await resp.json();
 
