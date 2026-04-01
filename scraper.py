@@ -41,8 +41,9 @@ try:
 except ImportError:
     PLAYWRIGHT_AVAILABLE = False
 
-# Global Playwright browser instance (shared across threads via page-per-request)
-_playwright_context = None
+# Thread-local Playwright storage — each worker thread gets its own browser
+_thread_local = None
+_use_playwright = False
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -130,37 +131,44 @@ def get(url: str, retries: int = 3, delay: float = 2.0) -> requests.Response | N
 # ---------------------------------------------------------------------------
 
 def init_playwright():
-    """Initialise a shared Playwright browser context (call once from main)."""
-    global _playwright_context
+    """Signal that Playwright should be used. Each thread creates its own browser."""
+    global _thread_local, _use_playwright
     if not PLAYWRIGHT_AVAILABLE:
         print("[WARN] Playwright not installed. Run: pip install playwright && playwright install chromium")
         return
-    pw = sync_playwright().start()
-    browser = pw.chromium.launch(headless=True)
-    _playwright_context = browser.new_context(
-        user_agent=HEADERS["User-Agent"],
-        locale="en-GB",
-    )
-    print("  Playwright initialised (headless Chromium).")
+    import threading
+    _thread_local = threading.local()
+    _use_playwright = True
+    print("  Playwright enabled (each worker thread will launch its own headless Chromium).")
+
+
+def _get_thread_browser():
+    """Return (or create) a Playwright browser for the current thread."""
+    if not hasattr(_thread_local, "browser") or _thread_local.browser is None:
+        pw = sync_playwright().start()
+        _thread_local.pw = pw
+        _thread_local.browser = pw.chromium.launch(headless=True)
+    return _thread_local.browser
 
 
 def _playwright_fetch(url: str, wait_selector: str = "h2", timeout: int = 15000) -> str | None:
     """
-    Fetch a URL with Playwright and return the full rendered HTML.
-    Uses a new page per call (thread-safe via context).
+    Fetch a URL with a thread-local Playwright browser and return rendered HTML.
+    Each worker thread owns its own browser instance to avoid greenlet conflicts.
     """
-    if not _playwright_context:
+    if not _use_playwright:
         return None
     try:
-        page = _playwright_context.new_page()
+        browser = _get_thread_browser()
+        context = browser.new_context(user_agent=HEADERS["User-Agent"], locale="en-GB")
+        page = context.new_page()
         page.goto(url, timeout=timeout, wait_until="domcontentloaded")
-        # Wait for physio content to appear
         try:
             page.wait_for_selector(wait_selector, timeout=5000)
         except PlaywrightTimeout:
             pass
         html = page.content()
-        page.close()
+        context.close()
         return html
     except Exception as exc:
         print(f"  [WARN] Playwright failed for {url}: {exc}", file=sys.stderr)
@@ -210,20 +218,20 @@ def parse_location_page(slug: str, use_playwright: bool = False) -> dict:
     """
     url = f"{BASE_URL}/physiotherapy/{slug}"
 
-    if use_playwright and PLAYWRIGHT_AVAILABLE and _playwright_context:
+    if use_playwright and PLAYWRIGHT_AVAILABLE and _use_playwright:
         html = _playwright_fetch(url)
-        if html:
-            soup = BeautifulSoup(html, "lxml")
-        else:
+        if not html:
             resp = get(url)
             if not resp:
                 return _empty_location(slug)
-            soup = BeautifulSoup(resp.text, "lxml")
+            html = resp.text
     else:
         resp = get(url)
         if not resp:
             return _empty_location(slug)
-        soup = BeautifulSoup(resp.text, "lxml")
+        html = resp.text
+
+    soup = BeautifulSoup(html, "lxml")
 
     # --- Site name ---
     h1 = soup.find("h1")
@@ -253,7 +261,7 @@ def parse_location_page(slug: str, use_playwright: bool = False) -> dict:
 
     # Fallback: look for a postcode-ish pattern in page text
     if not address:
-        m = re.search(r"([A-Z]{1,2}\d{1,2}[A-Z]?\s*\d[A-Z]{2})", resp.text)
+        m = re.search(r"([A-Z]{1,2}\d{1,2}[A-Z]?\s*\d[A-Z]{2})", html)
         if m:
             address = m.group(1)
 
@@ -265,7 +273,7 @@ def parse_location_page(slug: str, use_playwright: bool = False) -> dict:
 
     # --- Pricing ---
     pricing = "£72"
-    price_m = re.search(r"£(\d+)\.00.*?initial", resp.text[:5000], re.I)
+    price_m = re.search(r"£(\d+)\.00.*?initial", html[:5000], re.I)
     if price_m:
         pricing = f"£{price_m.group(1)}"
 

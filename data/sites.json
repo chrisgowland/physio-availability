@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-01T16:01:17Z",
-  "scrape_duration_seconds": 187.7,
+  "last_updated": "2026-04-01T19:01:07Z",
+  "scrape_duration_seconds": 159.4,
   "total_sites": 134,
   "errors": [],
   "sites": [
@@ -407,13 +407,6 @@
       "booking_url": "https://book.nuffieldhealth.com/physio/appointments/cheltenham",
       "physios": [
         {
-          "name": "Mr Huw Dimond",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/cheltenham",
-          "id": "0014J00000Fz9YpQAJ",
-          "bookable_online": true
-        },
-        {
           "name": "Miss Sarah Shephard",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/cheltenham",
@@ -429,9 +422,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-07T10:15",
-      "slots_next_4_weeks": 8,
-      "physio_count": 3
+      "next_available": "2026-04-08T08:00",
+      "slots_next_4_weeks": 7,
+      "physio_count": 2
     },
     {
       "slug": "chester",
@@ -512,8 +505,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-14T10:00",
-      "slots_next_4_weeks": 3,
+      "next_available": "2026-04-07T14:30",
+      "slots_next_4_weeks": 4,
       "physio_count": 1
     },
     {
@@ -596,7 +589,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-02T09:45",
-      "slots_next_4_weeks": 15,
+      "slots_next_4_weeks": 16,
       "physio_count": 1
     },
     {
@@ -648,23 +641,23 @@
       "booking_url": "https://book.nuffieldhealth.com/physio/appointments/derby-gym",
       "physios": [
         {
-          "name": "Mr Richard Baines",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/derby-gym",
-          "id": "00120000010rxT9AAI",
-          "bookable_online": true
-        },
-        {
           "name": "Mr Steven Tjon Soei Len",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/derby-gym",
           "id": "00120000010rxMHAAY",
           "bookable_online": true
+        },
+        {
+          "name": "Mr Richard Baines",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/derby-gym",
+          "id": "00120000010rxT9AAI",
+          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-02T14:30",
-      "slots_next_4_weeks": 11,
+      "next_available": "2026-04-08T09:30",
+      "slots_next_4_weeks": 10,
       "physio_count": 2
     },
     {
@@ -1194,7 +1187,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-06T08:00",
-      "slots_next_4_weeks": 29,
+      "slots_next_4_weeks": 28,
       "physio_count": 6
     },
     {
@@ -1224,7 +1217,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-08T14:30",
-      "slots_next_4_weeks": 10,
+      "slots_next_4_weeks": 9,
       "physio_count": 2
     },
     {
@@ -1236,19 +1229,11 @@
       "pricing": "£72",
       "location_url": "https://www.nuffieldhealth.com/physiotherapy/haywards-heath",
       "booking_url": "https://book.nuffieldhealth.com/physio/appointments/haywards-heath",
-      "physios": [
-        {
-          "name": "Mr Joshua Petty",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/haywards-heath",
-          "id": "0014J00000LCxqVQAT",
-          "bookable_online": true
-        }
-      ],
+      "physios": [],
       "online_bookable": true,
-      "next_available": "2026-04-13T16:00",
-      "slots_next_4_weeks": 1,
-      "physio_count": 1
+      "next_available": null,
+      "slots_next_4_weeks": 0,
+      "physio_count": 0
     },
     {
       "slug": "hemel-hempstead",
@@ -1681,8 +1666,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-02T13:00",
-      "slots_next_4_weeks": 17,
+      "next_available": "2026-04-08T09:30",
+      "slots_next_4_weeks": 13,
       "physio_count": 1
     },
     {
@@ -1927,21 +1912,6 @@
       "physio_count": 0
     },
     {
-      "slug": "the-holly",
-      "name": "Physiotherapy at The Holly Hospital",
-      "type": "hospital",
-      "address": "The Holly Hospital, ,, High Road, Buckhurst Hill, ,, Essex, ,, IG9 5HX",
-      "phone": "",
-      "pricing": "£72",
-      "location_url": "https://www.nuffieldhealth.com/physiotherapy/the-holly",
-      "booking_url": "https://book.nuffieldhealth.com/physio/appointments/the-holly",
-      "physios": [],
-      "online_bookable": false,
-      "next_available": null,
-      "slots_next_4_weeks": 0,
-      "physio_count": 0
-    },
-    {
       "slug": "leeds",
       "name": "Physiotherapy in Leeds",
       "type": "hospital",
@@ -2122,19 +2092,11 @@
       "pricing": "£72",
       "location_url": "https://www.nuffieldhealth.com/physiotherapy/sheffield",
       "booking_url": "https://book.nuffieldhealth.com/physio/appointments/sheffield",
-      "physios": [
-        {
-          "name": "Mr David Doherty",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/sheffield",
-          "id": "001w0000015C8m5AAC",
-          "bookable_online": true
-        }
-      ],
+      "physios": [],
       "online_bookable": true,
-      "next_available": "2026-04-13T10:00",
-      "slots_next_4_weeks": 1,
-      "physio_count": 1
+      "next_available": null,
+      "slots_next_4_weeks": 0,
+      "physio_count": 0
     },
     {
       "slug": "shipley",
@@ -2650,6 +2612,21 @@
       "booking_url": "https://book.nuffieldhealth.com/physio/appointments/york",
       "physios": [],
       "online_bookable": true,
+      "next_available": null,
+      "slots_next_4_weeks": 0,
+      "physio_count": 0
+    },
+    {
+      "slug": "the-holly",
+      "name": "Your choice regarding cookies on this site",
+      "type": "hospital",
+      "address": "The Holly Hospital, ,, High Road, Buckhurst Hill, ,, Essex, ,, IG9 5HX",
+      "phone": "",
+      "pricing": "£72",
+      "location_url": "https://www.nuffieldhealth.com/physiotherapy/the-holly",
+      "booking_url": "https://book.nuffieldhealth.com/physio/appointments/the-holly",
+      "physios": [],
+      "online_bookable": false,
       "next_available": null,
       "slots_next_4_weeks": 0,
       "physio_count": 0
