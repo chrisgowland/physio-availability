@@ -75,12 +75,34 @@ MONTH_MAP = {
     "September": 9, "October": 10, "November": 11, "December": 12,
 }
 
-# Known hospital slugs (partial list; also detected by name)
+# Authoritative hospital physio slugs, cross-referenced against
+# nuffieldhealth.com/hospitals (37 hospitals, Apr 2026).
+#
+# Rule: a physio slug is a hospital if:
+#   (a) it appears in this explicit set, OR
+#   (b) the slug itself contains the word "hospital"
+#
+# Sites like baltimore-wharf-physiotherapy are standalone physio clinics
+# at non-hospital locations and are NOT in this set.
 HOSPITAL_SLUGS = {
-    "glasgow-hospital", "parkside", "highgate", "the-holly",
-    "barbican-medical-centre", "baltimore-wharf-physiotherapy",
-    "hertford", "medway", "wimbledon", "haywards-heath",
-    "exeter", "hereford", "tees", "warwick", "oxford",
+    # Named London / specialist hospitals
+    "glasgow-hospital",
+    "parkside",
+    "highgate",
+    "the-holly",
+    "barbican-medical-centre",
+    "mihp",               # Manchester Institute of Health & Performance
+    # Towns where the plain slug (not -gym) is the hospital physio service
+    # (confirmed by existence of a matching slug-gym for the gym site)
+    "derby", "guildford", "leeds", "leicester",
+    "taunton", "tunbridge-wells", "wolverhampton",
+    # Hospital towns with no gym variant — confirmed from nuffieldhealth.com/hospitals
+    # Note: chester and plymouth pages are labelled "(Gym)" so excluded here
+    "bournemouth", "brentwood", "brighton", "bristol",
+    "cheltenham", "chichester", "exeter",
+    "haywards-heath", "hereford", "ipswich", "medway",
+    "oxford", "shrewsbury", "tees",
+    "warwick", "wimbledon", "woking", "york",
 }
 
 
@@ -214,8 +236,6 @@ def parse_location_page(slug: str, use_playwright: bool = False) -> dict:
         slug in HOSPITAL_SLUGS
         or "hospital" in slug
         or "hospital" in name.lower()
-        or "clinic" in name.lower()
-        or "medical" in name.lower()
     )
     site_type = "hospital" if is_hospital else "gym"
 
