@@ -238,6 +238,10 @@ def parse_location_page(slug: str, use_playwright: bool = False) -> dict:
     name = h1.get_text(strip=True) if h1 else slug.replace("-", " ").title()
     # Strip trailing boilerplate like "| Nuffield Health"
     name = re.sub(r"\s*[\|–—]\s*Nuffield Health.*$", "", name).strip()
+    # Guard against cookie-banner or other boilerplate being picked up as name
+    BAD_NAME_SUBSTRINGS = {"cookie", "javascript", "enable javascript", "loading"}
+    if any(b in name.lower() for b in BAD_NAME_SUBSTRINGS) or len(name) > 80:
+        name = slug.replace("-", " ").title()
 
     # --- Site type ---
     is_hospital = (
@@ -298,30 +302,40 @@ def _extract_physios_from_page(soup: BeautifulSoup, location_url: str) -> list[d
     Extract physio names and titles from location page.
 
     Nuffield Health pages use several patterns:
-      - H2/H3 "Name Surname Title" (combined, e.g. "Jennifer Dunbar Senior Physiotherapist")
-      - H2/H3 "Name Surname" (standalone, may appear alongside the combined form)
-      - H4 "Name Surname" within a sub-section
+      - <span class="person-summary__name"> (most common, JS-rendered)
       - data-name attributes on card elements
+      - H2/H3/H4 headings with name + title combined
 
     We parse all of these and deduplicate by normalised first+last name.
     """
-    # Collect raw (name, title, heading_text) candidates from all headings
     candidates: list[tuple[str, str]] = []   # (clean_name, title)
 
-    # Strategy 1: data attributes (most reliable when present)
+    # Strategy 1: person-summary__name spans (primary pattern on most pages)
+    for el in soup.find_all(class_="person-summary__name"):
+        title_el = el.find(class_="person-summary__title")
+        title = title_el.get_text(strip=True) if title_el else ""
+        # Name is the direct text content minus the title child
+        if title_el:
+            title_el.extract()
+        name = el.get_text(separator=" ", strip=True)
+        # Collapse multiple spaces (some pages have double spaces in names)
+        name = re.sub(r"\s+", " ", name).strip()
+        if name:
+            candidates.append((name, title))
+
+    # Strategy 2: data attributes
     for el in soup.find_all(attrs={"data-name": True}):
         name = el.get("data-name", "").strip()
         title = el.get("data-title", el.get("data-role", "")).strip()
         if name:
             candidates.append((name, title))
 
-    # Strategy 2: scan all h2/h3/h4 headings
+    # Strategy 3: h2/h3/h4 headings (fallback for older page layouts)
     for h in soup.find_all(["h2", "h3", "h4"]):
         raw = h.get_text(strip=True)
         parsed = _parse_physio_heading(raw)
         if parsed:
             name, title = parsed
-            # Try to get a better title from next sibling if we didn't extract one
             if not title:
                 title = _extract_title_near(h)
             candidates.append((name, title))
