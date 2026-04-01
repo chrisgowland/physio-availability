@@ -6,6 +6,9 @@ on:
     - cron: "0 6 * * *"
   workflow_dispatch:  # Allow manual trigger from GitHub Actions tab
 
+permissions:
+  contents: write  # Required to commit and push data/sites.json
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
