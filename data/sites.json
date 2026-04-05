@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-04T06:50:41Z",
-  "scrape_duration_seconds": 201.7,
+  "last_updated": "2026-04-05T06:55:33Z",
+  "scrape_duration_seconds": 188.6,
   "total_sites": 134,
   "errors": [],
   "sites": [
@@ -901,7 +901,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-09T08:00",
-      "slots_next_4_weeks": 18,
+      "slots_next_4_weeks": 17,
       "physio_count": 16
     },
     {
@@ -1383,7 +1383,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-13T08:30",
-      "slots_next_4_weeks": 6,
+      "slots_next_4_weeks": 5,
       "physio_count": 8
     },
     {
@@ -1618,8 +1618,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-08T11:15",
-      "slots_next_4_weeks": 16,
+      "next_available": "2026-04-10T09:45",
+      "slots_next_4_weeks": 15,
       "physio_count": 7
     },
     {
@@ -1660,7 +1660,8 @@
           "name": "Fiona Robertson",
           "title": "Senior Physiotherapist",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/edinburgh",
-          "bookable_online": false
+          "id": "001Pz00000EHRJyIAP",
+          "bookable_online": true
         },
         {
           "name": "Mr Alex Howarth",
@@ -1678,8 +1679,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-15T11:00",
-      "slots_next_4_weeks": 5,
+      "next_available": "2026-04-13T14:30",
+      "slots_next_4_weeks": 6,
       "physio_count": 7
     },
     {
@@ -2318,13 +2319,6 @@
           "bookable_online": true
         },
         {
-          "name": "Ms Suzanne Turner",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/guiseley",
-          "id": "001w000001YAb3BAAT",
-          "bookable_online": true
-        },
-        {
           "name": "Ms Lindsay Clare",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/guiseley",
@@ -2334,8 +2328,8 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-09T07:00",
-      "slots_next_4_weeks": 10,
-      "physio_count": 7
+      "slots_next_4_weeks": 12,
+      "physio_count": 6
     },
     {
       "slug": "hampshire",
@@ -2677,7 +2671,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-13T11:30",
-      "slots_next_4_weeks": 25,
+      "slots_next_4_weeks": 24,
       "physio_count": 7
     },
     {
@@ -3102,6 +3096,34 @@
       "physio_count": 4
     },
     {
+      "slug": "london-canary-wharf",
+      "name": "London - Canary Wharf Medical Centre Physiotherapy",
+      "type": "gym",
+      "address": "South Quay Plaza, ,, 185 Marsh Wall, ,, London, ,, E14 9SH",
+      "phone": "",
+      "pricing": "£72",
+      "location_url": "https://www.nuffieldhealth.com/physiotherapy/london-canary-wharf",
+      "booking_url": "https://book.nuffieldhealth.com/physio/appointments/london-canary-wharf",
+      "physios": [
+        {
+          "name": "Pietro Mazzariello",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-canary-wharf",
+          "bookable_online": false
+        },
+        {
+          "name": "Dai Fukase",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-canary-wharf",
+          "bookable_online": false
+        }
+      ],
+      "online_bookable": false,
+      "next_available": null,
+      "slots_next_4_weeks": 0,
+      "physio_count": 2
+    },
+    {
       "slug": "london-city",
       "name": "London - City (Gym) Physiotherapy",
       "type": "gym",
@@ -3171,34 +3193,6 @@
       "next_available": null,
       "slots_next_4_weeks": 0,
       "physio_count": 1
-    },
-    {
-      "slug": "london-canary-wharf",
-      "name": "London Canary Wharf",
-      "type": "gym",
-      "address": "South Quay Plaza, ,, 185 Marsh Wall, ,, London, ,, E14 9SH",
-      "phone": "",
-      "pricing": "£72",
-      "location_url": "https://www.nuffieldhealth.com/physiotherapy/london-canary-wharf",
-      "booking_url": "https://book.nuffieldhealth.com/physio/appointments/london-canary-wharf",
-      "physios": [
-        {
-          "name": "Pietro Mazzariello",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-canary-wharf",
-          "bookable_online": false
-        },
-        {
-          "name": "Dai Fukase",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-canary-wharf",
-          "bookable_online": false
-        }
-      ],
-      "online_bookable": false,
-      "next_available": null,
-      "slots_next_4_weeks": 0,
-      "physio_count": 2
     },
     {
       "slug": "mihp",
@@ -3992,7 +3986,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-13T08:00",
-      "slots_next_4_weeks": 5,
+      "slots_next_4_weeks": 4,
       "physio_count": 2
     },
     {
@@ -4130,8 +4124,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-15T11:45",
-      "slots_next_4_weeks": 8,
+      "next_available": "2026-04-08T11:15",
+      "slots_next_4_weeks": 9,
       "physio_count": 4
     },
     {
@@ -4314,7 +4308,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-13T08:00",
-      "slots_next_4_weeks": 15,
+      "slots_next_4_weeks": 14,
       "physio_count": 4
     },
     {
@@ -4673,8 +4667,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-13T15:30",
-      "slots_next_4_weeks": 15,
+      "next_available": "2026-04-09T13:00",
+      "slots_next_4_weeks": 17,
       "physio_count": 3
     },
     {
@@ -4894,7 +4888,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-07T11:30",
-      "slots_next_4_weeks": 3,
+      "slots_next_4_weeks": 4,
       "physio_count": 2
     },
     {
@@ -5019,7 +5013,7 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-14T12:00",
+      "next_available": "2026-04-08T09:00",
       "slots_next_4_weeks": 15,
       "physio_count": 1
     },
