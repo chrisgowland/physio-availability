@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-05T06:55:33Z",
-  "scrape_duration_seconds": 188.6,
+  "last_updated": "2026-04-06T07:18:16Z",
+  "scrape_duration_seconds": 189.0,
   "total_sites": 134,
   "errors": [],
   "sites": [
@@ -127,8 +127,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-13T08:30",
-      "slots_next_4_weeks": 15,
+      "next_available": "2026-04-13T10:15",
+      "slots_next_4_weeks": 14,
       "physio_count": 4
     },
     {
@@ -238,8 +238,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-07T08:00",
-      "slots_next_4_weeks": 18,
+      "next_available": "2026-04-07T08:45",
+      "slots_next_4_weeks": 17,
       "physio_count": 1
     },
     {
@@ -577,23 +577,23 @@
           "bookable_online": false
         },
         {
-          "name": "Ms Ashlee Otaru",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bromley",
-          "id": "0014J00000qUpSBQA0",
-          "bookable_online": true
-        },
-        {
           "name": "Mr Gerlando Disco Ambra",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bromley",
           "id": "001Pz00000p4fVbIAI",
           "bookable_online": true
+        },
+        {
+          "name": "Ms Ashlee Otaru",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bromley",
+          "id": "0014J00000qUpSBQA0",
+          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-07T09:30",
-      "slots_next_4_weeks": 34,
+      "next_available": "2026-04-07T17:15",
+      "slots_next_4_weeks": 33,
       "physio_count": 3
     },
     {
@@ -1557,7 +1557,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-14T13:45",
-      "slots_next_4_weeks": 3,
+      "slots_next_4_weeks": 2,
       "physio_count": 4
     },
     {
@@ -2016,17 +2016,17 @@
           "bookable_online": true
         },
         {
-          "name": "Mr Andrew Walker",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital",
-          "id": "00120000010rxLTAAY",
-          "bookable_online": true
-        },
-        {
           "name": "Mrs Judith Forshaw",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital",
           "id": "00120000010rxWoAAI",
+          "bookable_online": true
+        },
+        {
+          "name": "Mr Andrew Walker",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital",
+          "id": "00120000010rxLTAAY",
           "bookable_online": true
         },
         {
@@ -2039,7 +2039,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-07T08:30",
-      "slots_next_4_weeks": 52,
+      "slots_next_4_weeks": 51,
       "physio_count": 15
     },
     {
@@ -2457,8 +2457,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-06T08:00",
-      "slots_next_4_weeks": 37,
+      "next_available": "2026-04-06T11:00",
+      "slots_next_4_weeks": 33,
       "physio_count": 18
     },
     {
@@ -3264,7 +3264,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-13T10:30",
-      "slots_next_4_weeks": 9,
+      "slots_next_4_weeks": 8,
       "physio_count": 2
     },
     {
@@ -3374,19 +3374,12 @@
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/newbury",
           "id": "0014J00000his6HQAQ",
           "bookable_online": true
-        },
-        {
-          "name": "Mrs Shelley Hampson",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/newbury",
-          "id": "001w000001glpMrAAI",
-          "bookable_online": true
         }
       ],
       "online_bookable": true,
       "next_available": "2026-04-16T08:30",
-      "slots_next_4_weeks": 2,
-      "physio_count": 4
+      "slots_next_4_weeks": 1,
+      "physio_count": 3
     },
     {
       "slug": "newcastle",
@@ -4124,8 +4117,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-08T11:15",
-      "slots_next_4_weeks": 9,
+      "next_available": "2026-04-15T11:45",
+      "slots_next_4_weeks": 7,
       "physio_count": 4
     },
     {
@@ -4359,7 +4352,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-08T11:45",
-      "slots_next_4_weeks": 17,
+      "slots_next_4_weeks": 16,
       "physio_count": 2
     },
     {
@@ -4668,7 +4661,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-09T13:00",
-      "slots_next_4_weeks": 17,
+      "slots_next_4_weeks": 16,
       "physio_count": 3
     },
     {
