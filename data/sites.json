@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-11T06:48:46Z",
-  "scrape_duration_seconds": 208.1,
+  "last_updated": "2026-04-12T07:04:24Z",
+  "scrape_duration_seconds": 186.7,
   "total_sites": 134,
   "errors": [],
   "sites": [
@@ -667,7 +667,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-15T08:30",
-      "slots_next_4_weeks": 13,
+      "slots_next_4_weeks": 12,
       "physio_count": 2
     },
     {
@@ -1217,8 +1217,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-24T09:30",
-      "slots_next_4_weeks": 3,
+      "next_available": "2026-04-24T10:15",
+      "slots_next_4_weeks": 2,
       "physio_count": 2
     },
     {
@@ -1247,7 +1247,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-14T14:00",
-      "slots_next_4_weeks": 5,
+      "slots_next_4_weeks": 4,
       "physio_count": 2
     },
     {
@@ -1383,7 +1383,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-13T09:00",
-      "slots_next_4_weeks": 32,
+      "slots_next_4_weeks": 31,
       "physio_count": 11
     },
     {
@@ -1462,7 +1462,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-13T08:30",
-      "slots_next_4_weeks": 14,
+      "slots_next_4_weeks": 12,
       "physio_count": 10
     },
     {
@@ -2103,7 +2103,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-14T08:45",
-      "slots_next_4_weeks": 64,
+      "slots_next_4_weeks": 60,
       "physio_count": 14
     },
     {
@@ -2381,19 +2381,12 @@
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/guiseley",
           "id": "0012X00001uMxsIQAS",
           "bookable_online": true
-        },
-        {
-          "name": "Ms Lindsay Clare",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/guiseley",
-          "id": "0014J00000Ge1mPQAR",
-          "bookable_online": true
         }
       ],
       "online_bookable": true,
       "next_available": "2026-04-16T07:00",
-      "slots_next_4_weeks": 5,
-      "physio_count": 6
+      "slots_next_4_weeks": 3,
+      "physio_count": 5
     },
     {
       "slug": "hampshire",
@@ -2666,7 +2659,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-17T14:00",
-      "slots_next_4_weeks": 10,
+      "slots_next_4_weeks": 9,
       "physio_count": 1
     },
     {
@@ -2771,21 +2764,6 @@
       "physio_count": 1
     },
     {
-      "slug": "highgate",
-      "name": "Highgate",
-      "type": "hospital",
-      "address": "17-19 View Road, ,, Highgate, ,, London, ,, N6 4DJ",
-      "phone": "",
-      "pricing": "£72",
-      "location_url": "https://www.nuffieldhealth.com/physiotherapy/highgate",
-      "booking_url": "https://book.nuffieldhealth.com/physio/appointments/highgate",
-      "physios": [],
-      "online_bookable": false,
-      "next_available": null,
-      "slots_next_4_weeks": 0,
-      "physio_count": 0
-    },
-    {
       "slug": "ilford",
       "name": "Ilford Physiotherapy",
       "type": "gym",
@@ -2810,8 +2788,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-15T14:30",
-      "slots_next_4_weeks": 6,
+      "next_available": "2026-04-15T15:15",
+      "slots_next_4_weeks": 5,
       "physio_count": 2
     },
     {
@@ -3920,6 +3898,21 @@
       "physio_count": 2
     },
     {
+      "slug": "highgate",
+      "name": "Physiotherapy at Highgate Hospital",
+      "type": "hospital",
+      "address": "17-19 View Road, ,, Highgate, ,, London, ,, N6 4DJ",
+      "phone": "",
+      "pricing": "£72",
+      "location_url": "https://www.nuffieldhealth.com/physiotherapy/highgate",
+      "booking_url": "https://book.nuffieldhealth.com/physio/appointments/highgate",
+      "physios": [],
+      "online_bookable": false,
+      "next_available": null,
+      "slots_next_4_weeks": 0,
+      "physio_count": 0
+    },
+    {
       "slug": "parkside",
       "name": "Physiotherapy at Parkside Hospital",
       "type": "hospital",
@@ -4159,7 +4152,7 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-15T16:00",
+      "next_available": "2026-04-14T11:30",
       "slots_next_4_weeks": 11,
       "physio_count": 1
     },
@@ -4430,8 +4423,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-22T09:00",
-      "slots_next_4_weeks": 4,
+      "next_available": "2026-04-22T09:30",
+      "slots_next_4_weeks": 3,
       "physio_count": 12
     },
     {
@@ -4473,7 +4466,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-14T10:00",
-      "slots_next_4_weeks": 31,
+      "slots_next_4_weeks": 30,
       "physio_count": 4
     },
     {
@@ -4848,7 +4841,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-16T08:45",
-      "slots_next_4_weeks": 7,
+      "slots_next_4_weeks": 8,
       "physio_count": 3
     },
     {
