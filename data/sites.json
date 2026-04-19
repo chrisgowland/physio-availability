@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-18T06:58:14Z",
-  "scrape_duration_seconds": 220.6,
+  "last_updated": "2026-04-19T07:08:06Z",
+  "scrape_duration_seconds": 206.5,
   "total_sites": 134,
   "errors": [],
   "sites": [
@@ -247,7 +247,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-21T11:30",
-      "slots_next_4_weeks": 16,
+      "slots_next_4_weeks": 15,
       "physio_count": 1
     },
     {
@@ -427,7 +427,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-20T08:00",
-      "slots_next_4_weeks": 2,
+      "slots_next_4_weeks": 1,
       "physio_count": 13
     },
     {
@@ -1794,7 +1794,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-24T09:30",
-      "slots_next_4_weeks": 17,
+      "slots_next_4_weeks": 16,
       "physio_count": 1
     },
     {
@@ -2295,8 +2295,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-27T09:00",
-      "slots_next_4_weeks": 8,
+      "next_available": "2026-04-27T11:15",
+      "slots_next_4_weeks": 7,
       "physio_count": 6
     },
     {
@@ -2422,12 +2422,19 @@
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/guiseley",
           "id": "00120000010rxacAAA",
           "bookable_online": true
+        },
+        {
+          "name": "Ms Lindsay Clare",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/guiseley",
+          "id": "0014J00000Ge1mPQAR",
+          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-27T14:45",
+      "next_available": "2026-04-28T11:45",
       "slots_next_4_weeks": 4,
-      "physio_count": 6
+      "physio_count": 7
     },
     {
       "slug": "hampshire",
@@ -2661,13 +2668,6 @@
           "bookable_online": false
         },
         {
-          "name": "Mr Joshua Petty",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/haywards-heath",
-          "id": "0014J00000LCxqVQAT",
-          "bookable_online": true
-        },
-        {
           "name": "Mrs Jenny Pullen",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/haywards-heath",
@@ -2690,9 +2690,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-20T08:00",
-      "slots_next_4_weeks": 14,
-      "physio_count": 10
+      "next_available": "2026-04-21T10:15",
+      "slots_next_4_weeks": 13,
+      "physio_count": 9
     },
     {
       "slug": "hemel-hempstead",
@@ -3518,22 +3518,22 @@
           "bookable_online": false
         },
         {
-          "name": "Mrs Cathy Godwin",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/newbury",
-          "id": "0014J00000his6HQAQ",
-          "bookable_online": true
-        },
-        {
           "name": "Mrs Shelley Hampson",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/newbury",
           "id": "001w000001glpMrAAI",
           "bookable_online": true
+        },
+        {
+          "name": "Mrs Cathy Godwin",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/newbury",
+          "id": "0014J00000his6HQAQ",
+          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-24T09:00",
+      "next_available": "2026-04-22T10:30",
       "slots_next_4_weeks": 14,
       "physio_count": 4
     },
@@ -3800,7 +3800,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-21T08:00",
-      "slots_next_4_weeks": 35,
+      "slots_next_4_weeks": 34,
       "physio_count": 6
     },
     {
@@ -4141,7 +4141,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-20T08:00",
-      "slots_next_4_weeks": 47,
+      "slots_next_4_weeks": 43,
       "physio_count": 22
     },
     {
@@ -4249,7 +4249,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-24T13:15",
-      "slots_next_4_weeks": 8,
+      "slots_next_4_weeks": 9,
       "physio_count": 2
     },
     {
@@ -4336,7 +4336,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-20T12:00",
-      "slots_next_4_weeks": 26,
+      "slots_next_4_weeks": 25,
       "physio_count": 4
     },
     {
@@ -4378,7 +4378,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-21T14:30",
-      "slots_next_4_weeks": 18,
+      "slots_next_4_weeks": 17,
       "physio_count": 4
     },
     {
@@ -4607,7 +4607,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-21T16:15",
-      "slots_next_4_weeks": 10,
+      "slots_next_4_weeks": 11,
       "physio_count": 1
     },
     {
