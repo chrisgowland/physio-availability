@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-25T07:03:24Z",
-  "scrape_duration_seconds": 224.5,
+  "last_updated": "2026-04-26T07:17:37Z",
+  "scrape_duration_seconds": 220.1,
   "total_sites": 134,
   "errors": [],
   "sites": [
@@ -125,19 +125,12 @@
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/barbican-medical-centre",
           "id": "001w0000018E8MqAAK",
           "bookable_online": true
-        },
-        {
-          "name": "Ms Deborah Newton-Salam",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/barbican-medical-centre",
-          "id": "00120000010rxVzAAI",
-          "bookable_online": true
         }
       ],
       "online_bookable": true,
       "next_available": "2026-04-27T09:30",
-      "slots_next_4_weeks": 47,
-      "physio_count": 5
+      "slots_next_4_weeks": 46,
+      "physio_count": 4
     },
     {
       "slug": "london-battersea",
@@ -469,7 +462,7 @@
     },
     {
       "slug": "bristol-clifton",
-      "name": "Bristol (Clifton) Physiotherapy",
+      "name": "Bristol Clifton",
       "type": "gym",
       "address": "83 Queens Road, Clifton, ,, Bristol, ,, BS8 1QS",
       "phone": "",
@@ -622,7 +615,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-28T18:45",
-      "slots_next_4_weeks": 27,
+      "slots_next_4_weeks": 26,
       "physio_count": 3
     },
     {
@@ -1368,7 +1361,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-28T13:30",
-      "slots_next_4_weeks": 32,
+      "slots_next_4_weeks": 29,
       "physio_count": 11
     },
     {
@@ -2085,23 +2078,23 @@
           "bookable_online": true
         },
         {
-          "name": "Mr Raghu Mudivarthy",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital",
-          "id": "00120000010v5HVAAY",
-          "bookable_online": true
-        },
-        {
           "name": "Mr Will Corkin",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital",
           "id": "00120000010rxbMAAQ",
           "bookable_online": true
+        },
+        {
+          "name": "Mr Raghu Mudivarthy",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital",
+          "id": "00120000010v5HVAAY",
+          "bookable_online": true
         }
       ],
       "online_bookable": true,
       "next_available": "2026-04-27T16:30",
-      "slots_next_4_weeks": 64,
+      "slots_next_4_weeks": 63,
       "physio_count": 15
     },
     {
@@ -2397,7 +2390,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-05T08:15",
-      "slots_next_4_weeks": 6,
+      "slots_next_4_weeks": 7,
       "physio_count": 6
     },
     {
@@ -2554,7 +2547,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-27T07:00",
-      "slots_next_4_weeks": 34,
+      "slots_next_4_weeks": 33,
       "physio_count": 6
     },
     {
@@ -3284,7 +3277,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-04-27T12:45",
-      "slots_next_4_weeks": 4,
+      "slots_next_4_weeks": 3,
       "physio_count": 2
     },
     {
@@ -4382,19 +4375,12 @@
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/shrewsbury",
           "id": "00120000010rxWsAAI",
           "bookable_online": true
-        },
-        {
-          "name": "Mrs Aleksandra Poole",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/shrewsbury",
-          "id": "0014J00000SmHvCQAV",
-          "bookable_online": true
         }
       ],
       "online_bookable": true,
       "next_available": "2026-04-27T13:15",
-      "slots_next_4_weeks": 2,
-      "physio_count": 11
+      "slots_next_4_weeks": 1,
+      "physio_count": 10
     },
     {
       "slug": "st-albans",
@@ -5183,7 +5169,7 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-04-27T17:15",
+      "next_available": "2026-04-27T13:30",
       "slots_next_4_weeks": 12,
       "physio_count": 1
     },
