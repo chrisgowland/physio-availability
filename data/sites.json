@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-03T07:46:49Z",
-  "scrape_duration_seconds": 207.5,
+  "last_updated": "2026-05-04T08:15:40Z",
+  "scrape_duration_seconds": 222.5,
   "total_sites": 134,
   "errors": [],
   "sites": [
@@ -599,13 +599,6 @@
           "bookable_online": false
         },
         {
-          "name": "Mr Gerlando Disco Ambra",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bromley",
-          "id": "001Pz00000p4fVbIAI",
-          "bookable_online": true
-        },
-        {
           "name": "Ms Ashlee Otaru",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bromley",
@@ -614,9 +607,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-03T11:30",
-      "slots_next_4_weeks": 24,
-      "physio_count": 3
+      "next_available": "2026-05-06T12:30",
+      "slots_next_4_weeks": 23,
+      "physio_count": 2
     },
     {
       "slug": "brondesbury-park",
@@ -1125,7 +1118,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-05T11:30",
-      "slots_next_4_weeks": 12,
+      "slots_next_4_weeks": 11,
       "physio_count": 2
     },
     {
@@ -1261,7 +1254,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-05T11:00",
-      "slots_next_4_weeks": 7,
+      "slots_next_4_weeks": 6,
       "physio_count": 2
     },
     {
@@ -1580,7 +1573,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-05T08:45",
-      "slots_next_4_weeks": 26,
+      "slots_next_4_weeks": 25,
       "physio_count": 4
     },
     {
@@ -2011,7 +2004,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-05T09:00",
-      "slots_next_4_weeks": 32,
+      "slots_next_4_weeks": 31,
       "physio_count": 1
     },
     {
@@ -2093,17 +2086,17 @@
           "bookable_online": true
         },
         {
-          "name": "Mr Chris Tung",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital",
-          "id": "0014J00000fERc2QAG",
-          "bookable_online": true
-        },
-        {
           "name": "Mrs Claire Beckett",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital",
           "id": "00120000012fi2jAAA",
+          "bookable_online": true
+        },
+        {
+          "name": "Mr Chris Tung",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital",
+          "id": "0014J00000fERc2QAG",
           "bookable_online": true
         },
         {
@@ -2207,7 +2200,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-06T11:45",
-      "slots_next_4_weeks": 18,
+      "slots_next_4_weeks": 17,
       "physio_count": 4
     },
     {
@@ -2642,7 +2635,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-13T09:30",
-      "slots_next_4_weeks": 7,
+      "slots_next_4_weeks": 8,
       "physio_count": 8
     },
     {
@@ -3170,7 +3163,7 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-05T09:30",
+      "next_available": "2026-05-05T09:45",
       "slots_next_4_weeks": 54,
       "physio_count": 4
     },
@@ -3716,7 +3709,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-05T08:00",
-      "slots_next_4_weeks": 42,
+      "slots_next_4_weeks": 43,
       "physio_count": 6
     },
     {
@@ -4057,7 +4050,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-06T14:00",
-      "slots_next_4_weeks": 32,
+      "slots_next_4_weeks": 31,
       "physio_count": 21
     },
     {
@@ -4210,8 +4203,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-12T14:30",
-      "slots_next_4_weeks": 5,
+      "next_available": "2026-05-13T08:00",
+      "slots_next_4_weeks": 4,
       "physio_count": 2
     },
     {
@@ -4425,19 +4418,12 @@
           "title": "Senior Physiotherapist",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/st-albans",
           "bookable_online": false
-        },
-        {
-          "name": "Mr James Whatley",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/st-albans",
-          "id": "0012X00001uNFItQAO",
-          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-08T15:30",
-      "slots_next_4_weeks": 1,
-      "physio_count": 3
+      "next_available": null,
+      "slots_next_4_weeks": 0,
+      "physio_count": 2
     },
     {
       "slug": "stockley-park",
@@ -4534,19 +4520,12 @@
           "title": "Physiotherapist",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/surbiton",
           "bookable_online": false
-        },
-        {
-          "name": "Mrs Harriet Callender",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/surbiton",
-          "id": "0014J0000096QCWQA2",
-          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-11T10:45",
-      "slots_next_4_weeks": 1,
-      "physio_count": 3
+      "next_available": null,
+      "slots_next_4_weeks": 0,
+      "physio_count": 2
     },
     {
       "slug": "swindon",
