@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-09T07:32:53Z",
-  "scrape_duration_seconds": 224.7,
+  "last_updated": "2026-05-10T07:55:26Z",
+  "scrape_duration_seconds": 206.8,
   "total_sites": 133,
   "errors": [],
   "sites": [
@@ -585,8 +585,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-13T08:15",
-      "slots_next_4_weeks": 22,
+      "next_available": "2026-05-13T10:15",
+      "slots_next_4_weeks": 21,
       "physio_count": 2
     },
     {
@@ -937,7 +937,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-13T11:30",
-      "slots_next_4_weeks": 19,
+      "slots_next_4_weeks": 18,
       "physio_count": 17
     },
     {
@@ -1696,7 +1696,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-11T13:00",
-      "slots_next_4_weeks": 6,
+      "slots_next_4_weeks": 5,
       "physio_count": 7
     },
     {
@@ -2273,7 +2273,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-11T14:00",
-      "slots_next_4_weeks": 12,
+      "slots_next_4_weeks": 11,
       "physio_count": 7
     },
     {
@@ -2403,7 +2403,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-21T07:30",
-      "slots_next_4_weeks": 10,
+      "slots_next_4_weeks": 8,
       "physio_count": 6
     },
     {
@@ -2574,7 +2574,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-11T14:30",
-      "slots_next_4_weeks": 46,
+      "slots_next_4_weeks": 47,
       "physio_count": 6
     },
     {
@@ -2786,7 +2786,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-13T15:00",
-      "slots_next_4_weeks": 8,
+      "slots_next_4_weeks": 7,
       "physio_count": 2
     },
     {
@@ -2990,9 +2990,130 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-12T13:00",
-      "slots_next_4_weeks": 6,
+      "next_available": "2026-05-14T11:00",
+      "slots_next_4_weeks": 5,
       "physio_count": 2
+    },
+    {
+      "slug": "leeds",
+      "name": "Leeds",
+      "type": "hospital",
+      "address": "2 Leighton Street, ,, Leeds, ,, LS1 3EB",
+      "phone": "",
+      "pricing": "£72",
+      "location_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+      "booking_url": "https://book.nuffieldhealth.com/physio/appointments/leeds",
+      "physios": [
+        {
+          "name": "David Bown",
+          "title": "Personal Trainer and Physiotherapy Assistant",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "bookable_online": false
+        },
+        {
+          "name": "Anthony Burns",
+          "title": "Senior Physiotherapist",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "bookable_online": false
+        },
+        {
+          "name": "Charles Edmondson",
+          "title": "Senior Physiotherapist",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "bookable_online": false
+        },
+        {
+          "name": "Daniel Gibson",
+          "title": "Physiotherapy Manager",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "bookable_online": false
+        },
+        {
+          "name": "Sophie Harper",
+          "title": "Senior Physiotherapist",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "bookable_online": false
+        },
+        {
+          "name": "Emily Jackson",
+          "title": "Senior Physiotherapist",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "bookable_online": false
+        },
+        {
+          "name": "Ruth Jones",
+          "title": "Senior Physiotherapist",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "bookable_online": false
+        },
+        {
+          "name": "Laura Mould",
+          "title": "Inpatient Clinical Lead",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "bookable_online": false
+        },
+        {
+          "name": "Emma Pollard",
+          "title": "Senior Physiotherapist",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "bookable_online": false
+        },
+        {
+          "name": "Josh Slater",
+          "title": "Senior Physiotherapist",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "bookable_online": false
+        },
+        {
+          "name": "Nicola Townsley",
+          "title": "Physiotherapist",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "bookable_online": false
+        },
+        {
+          "name": "Laurence Wharmby",
+          "title": "Senior Physiotherapist",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "bookable_online": false
+        },
+        {
+          "name": "Jen Willingham",
+          "title": "Senior Physiotherapist",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "bookable_online": false
+        },
+        {
+          "name": "Clinical Pilates timetable",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "bookable_online": false
+        },
+        {
+          "name": "Mr Charles Edmondson",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "id": "001Pz000006wbgWIAQ",
+          "bookable_online": true
+        },
+        {
+          "name": "Mr Laurence Wharmby",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "id": "001w000001H1Mo8AAF",
+          "bookable_online": true
+        },
+        {
+          "name": "Mr Josh Slater",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "id": "0014J00000j1ikOQAQ",
+          "bookable_online": true
+        }
+      ],
+      "online_bookable": true,
+      "next_available": "2026-05-15T13:30",
+      "slots_next_4_weeks": 7,
+      "physio_count": 17
     },
     {
       "slug": "leeds-gym",
@@ -3180,34 +3301,6 @@
       "physio_count": 4
     },
     {
-      "slug": "london-canary-wharf",
-      "name": "London - Canary Wharf Medical Centre Physiotherapy",
-      "type": "gym",
-      "address": "South Quay Plaza, ,, 185 Marsh Wall, ,, London, ,, E14 9SH",
-      "phone": "",
-      "pricing": "£72",
-      "location_url": "https://www.nuffieldhealth.com/physiotherapy/london-canary-wharf",
-      "booking_url": "https://book.nuffieldhealth.com/physio/appointments/london-canary-wharf",
-      "physios": [
-        {
-          "name": "Pietro Mazzariello",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-canary-wharf",
-          "bookable_online": false
-        },
-        {
-          "name": "Dai Fukase",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-canary-wharf",
-          "bookable_online": false
-        }
-      ],
-      "online_bookable": false,
-      "next_available": null,
-      "slots_next_4_weeks": 0,
-      "physio_count": 2
-    },
-    {
       "slug": "london-city",
       "name": "London - City (Gym) Physiotherapy",
       "type": "gym",
@@ -3277,6 +3370,34 @@
       "next_available": null,
       "slots_next_4_weeks": 0,
       "physio_count": 1
+    },
+    {
+      "slug": "london-canary-wharf",
+      "name": "London Canary Wharf",
+      "type": "gym",
+      "address": "South Quay Plaza, ,, 185 Marsh Wall, ,, London, ,, E14 9SH",
+      "phone": "",
+      "pricing": "£72",
+      "location_url": "https://www.nuffieldhealth.com/physiotherapy/london-canary-wharf",
+      "booking_url": "https://book.nuffieldhealth.com/physio/appointments/london-canary-wharf",
+      "physios": [
+        {
+          "name": "Pietro Mazzariello",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-canary-wharf",
+          "bookable_online": false
+        },
+        {
+          "name": "Dai Fukase",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-canary-wharf",
+          "bookable_online": false
+        }
+      ],
+      "online_bookable": false,
+      "next_available": null,
+      "slots_next_4_weeks": 0,
+      "physio_count": 2
     },
     {
       "slug": "mihp",
@@ -3399,8 +3520,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-13T14:00",
-      "slots_next_4_weeks": 15,
+      "next_available": "2026-05-13T14:45",
+      "slots_next_4_weeks": 14,
       "physio_count": 1
     },
     {
@@ -3917,127 +4038,6 @@
       "physio_count": 0
     },
     {
-      "slug": "leeds",
-      "name": "Physiotherapy in Leeds",
-      "type": "hospital",
-      "address": "2 Leighton Street, ,, Leeds, ,, LS1 3EB",
-      "phone": "",
-      "pricing": "£72",
-      "location_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-      "booking_url": "https://book.nuffieldhealth.com/physio/appointments/leeds",
-      "physios": [
-        {
-          "name": "David Bown",
-          "title": "Personal Trainer and Physiotherapy Assistant",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "bookable_online": false
-        },
-        {
-          "name": "Anthony Burns",
-          "title": "Senior Physiotherapist",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "bookable_online": false
-        },
-        {
-          "name": "Charles Edmondson",
-          "title": "Senior Physiotherapist",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "bookable_online": false
-        },
-        {
-          "name": "Daniel Gibson",
-          "title": "Physiotherapy Manager",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "bookable_online": false
-        },
-        {
-          "name": "Sophie Harper",
-          "title": "Senior Physiotherapist",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "bookable_online": false
-        },
-        {
-          "name": "Emily Jackson",
-          "title": "Senior Physiotherapist",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "bookable_online": false
-        },
-        {
-          "name": "Ruth Jones",
-          "title": "Senior Physiotherapist",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "bookable_online": false
-        },
-        {
-          "name": "Laura Mould",
-          "title": "Inpatient Clinical Lead",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "bookable_online": false
-        },
-        {
-          "name": "Emma Pollard",
-          "title": "Senior Physiotherapist",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "bookable_online": false
-        },
-        {
-          "name": "Josh Slater",
-          "title": "Senior Physiotherapist",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "bookable_online": false
-        },
-        {
-          "name": "Nicola Townsley",
-          "title": "Physiotherapist",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "bookable_online": false
-        },
-        {
-          "name": "Laurence Wharmby",
-          "title": "Senior Physiotherapist",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "bookable_online": false
-        },
-        {
-          "name": "Jen Willingham",
-          "title": "Senior Physiotherapist",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "bookable_online": false
-        },
-        {
-          "name": "Clinical Pilates timetable",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "bookable_online": false
-        },
-        {
-          "name": "Mr Charles Edmondson",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "id": "001Pz000006wbgWIAQ",
-          "bookable_online": true
-        },
-        {
-          "name": "Mr Laurence Wharmby",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "id": "001w000001H1Mo8AAF",
-          "bookable_online": true
-        },
-        {
-          "name": "Mr Josh Slater",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "id": "0014J00000j1ikOQAQ",
-          "bookable_online": true
-        }
-      ],
-      "online_bookable": true,
-      "next_available": "2026-05-15T13:30",
-      "slots_next_4_weeks": 7,
-      "physio_count": 17
-    },
-    {
       "slug": "plymouth",
       "name": "Plymouth (Gym) Physiotherapy",
       "type": "gym",
@@ -4384,8 +4384,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-22T09:30",
-      "slots_next_4_weeks": 4,
+      "next_available": "2026-05-22T10:15",
+      "slots_next_4_weeks": 3,
       "physio_count": 10
     },
     {
@@ -4959,7 +4959,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-13T11:45",
-      "slots_next_4_weeks": 20,
+      "slots_next_4_weeks": 21,
       "physio_count": 21
     },
     {
@@ -5184,7 +5184,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-18T13:00",
-      "slots_next_4_weeks": 21,
+      "slots_next_4_weeks": 19,
       "physio_count": 1
     },
     {
