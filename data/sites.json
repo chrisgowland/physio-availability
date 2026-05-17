@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-16T07:48:22Z",
-  "scrape_duration_seconds": 219.5,
+  "last_updated": "2026-05-17T08:08:31Z",
+  "scrape_duration_seconds": 211.0,
   "total_sites": 133,
   "errors": [],
   "sites": [
@@ -558,7 +558,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-18T09:45",
-      "slots_next_4_weeks": 24,
+      "slots_next_4_weeks": 23,
       "physio_count": 3
     },
     {
@@ -1493,7 +1493,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-19T13:00",
-      "slots_next_4_weeks": 35,
+      "slots_next_4_weeks": 36,
       "physio_count": 4
     },
     {
@@ -1830,7 +1830,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-21T10:45",
-      "slots_next_4_weeks": 4,
+      "slots_next_4_weeks": 5,
       "physio_count": 3
     },
     {
@@ -2084,7 +2084,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-18T11:30",
-      "slots_next_4_weeks": 20,
+      "slots_next_4_weeks": 19,
       "physio_count": 4
     },
     {
@@ -2310,7 +2310,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-21T09:00",
-      "slots_next_4_weeks": 5,
+      "slots_next_4_weeks": 9,
       "physio_count": 6
     },
     {
@@ -2453,7 +2453,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-18T07:30",
-      "slots_next_4_weeks": 24,
+      "slots_next_4_weeks": 23,
       "physio_count": 6
     },
     {
@@ -2752,7 +2752,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-18T17:45",
-      "slots_next_4_weeks": 5,
+      "slots_next_4_weeks": 4,
       "physio_count": 4
     },
     {
@@ -3169,7 +3169,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-18T14:45",
-      "slots_next_4_weeks": 7,
+      "slots_next_4_weeks": 6,
       "physio_count": 2
     },
     {
@@ -3219,8 +3219,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T14:00",
-      "slots_next_4_weeks": 16,
+      "next_available": "2026-05-18T14:45",
+      "slots_next_4_weeks": 15,
       "physio_count": 2
     },
     {
@@ -3709,6 +3709,21 @@
       "physio_count": 2
     },
     {
+      "slug": "parkside",
+      "name": "Parkside",
+      "type": "hospital",
+      "address": "53 Parkside, ,, Wimbledon, ,, London, ,, SW19 5NX",
+      "phone": "02033403478",
+      "pricing": "£72",
+      "location_url": "https://www.nuffieldhealth.com/physiotherapy/parkside",
+      "booking_url": "https://book.nuffieldhealth.com/physio/appointments/parkside",
+      "physios": [],
+      "online_bookable": false,
+      "next_available": null,
+      "slots_next_4_weeks": 0,
+      "physio_count": 0
+    },
+    {
       "slug": "highgate",
       "name": "Physiotherapy at Highgate Hospital",
       "type": "hospital",
@@ -3717,21 +3732,6 @@
       "pricing": "£72",
       "location_url": "https://www.nuffieldhealth.com/physiotherapy/highgate",
       "booking_url": "https://book.nuffieldhealth.com/physio/appointments/highgate",
-      "physios": [],
-      "online_bookable": false,
-      "next_available": null,
-      "slots_next_4_weeks": 0,
-      "physio_count": 0
-    },
-    {
-      "slug": "parkside",
-      "name": "Physiotherapy at Parkside Hospital",
-      "type": "hospital",
-      "address": "53 Parkside, ,, Wimbledon, ,, London, ,, SW19 5NX",
-      "phone": "02033403478",
-      "pricing": "£72",
-      "location_url": "https://www.nuffieldhealth.com/physiotherapy/parkside",
-      "booking_url": "https://book.nuffieldhealth.com/physio/appointments/parkside",
       "physios": [],
       "online_bookable": false,
       "next_available": null,
@@ -4265,7 +4265,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-19T11:30",
-      "slots_next_4_weeks": 27,
+      "slots_next_4_weeks": 25,
       "physio_count": 2
     },
     {
@@ -4876,8 +4876,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-16T14:45",
-      "slots_next_4_weeks": 53,
+      "next_available": "2026-05-18T09:00",
+      "slots_next_4_weeks": 59,
       "physio_count": 1
     },
     {
@@ -4950,8 +4950,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T10:00",
-      "slots_next_4_weeks": 14,
+      "next_available": "2026-05-18T10:45",
+      "slots_next_4_weeks": 13,
       "physio_count": 1
     },
     {
