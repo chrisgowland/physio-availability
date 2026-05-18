@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-17T08:08:31Z",
-  "scrape_duration_seconds": 211.0,
+  "last_updated": "2026-05-18T09:37:32Z",
+  "scrape_duration_seconds": 231.8,
   "total_sites": 133,
   "errors": [],
   "sites": [
@@ -121,8 +121,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T13:15",
-      "slots_next_4_weeks": 49,
+      "next_available": "2026-05-19T10:30",
+      "slots_next_4_weeks": 43,
       "physio_count": 4
     },
     {
@@ -203,8 +203,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-19T09:15",
-      "slots_next_4_weeks": 4,
+      "next_available": "2026-05-19T08:45",
+      "slots_next_4_weeks": 3,
       "physio_count": 1
     },
     {
@@ -557,8 +557,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T09:45",
-      "slots_next_4_weeks": 23,
+      "next_available": "2026-05-19T08:15",
+      "slots_next_4_weeks": 26,
       "physio_count": 3
     },
     {
@@ -617,7 +617,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-20T08:45",
-      "slots_next_4_weeks": 16,
+      "slots_next_4_weeks": 15,
       "physio_count": 2
     },
     {
@@ -691,20 +691,6 @@
           "bookable_online": false
         },
         {
-          "name": "Miss Emily Davies",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/cardiff-bay",
-          "id": "001Pz00000EwuueIAB",
-          "bookable_online": true
-        },
-        {
-          "name": "Ms Makanaka Makonese",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/cardiff-bay",
-          "id": "001Pz00000eElrYIAS",
-          "bookable_online": true
-        },
-        {
           "name": "Ms Keshika Tharimena",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/cardiff-bay",
@@ -724,12 +710,19 @@
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/cardiff-bay",
           "id": "001w000001dulP2AAI",
           "bookable_online": true
+        },
+        {
+          "name": "Ms Makanaka Makonese",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/cardiff-bay",
+          "id": "001Pz00000eElrYIAS",
+          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T09:00",
-      "slots_next_4_weeks": 29,
-      "physio_count": 15
+      "next_available": "2026-05-19T08:30",
+      "slots_next_4_weeks": 26,
+      "physio_count": 14
     },
     {
       "slug": "cheam",
@@ -761,19 +754,12 @@
           "title": "Physiotherapist",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/chelmsford",
           "bookable_online": false
-        },
-        {
-          "name": "Ms Ropafadzo Gunduza",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/chelmsford",
-          "id": "0014J00000qUVeIQAW",
-          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-29T14:15",
-      "slots_next_4_weeks": 1,
-      "physio_count": 2
+      "next_available": null,
+      "slots_next_4_weeks": 0,
+      "physio_count": 1
     },
     {
       "slug": "cheltenham",
@@ -864,17 +850,17 @@
           "bookable_online": false
         },
         {
-          "name": "Mr Huw Dimond",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/cheltenham",
-          "id": "0014J00000Fz9YpQAJ",
-          "bookable_online": true
-        },
-        {
           "name": "Miss Laura Hale",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/cheltenham",
           "id": "001w000001CG3ZHAA1",
+          "bookable_online": true
+        },
+        {
+          "name": "Mr Huw Dimond",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/cheltenham",
+          "id": "0014J00000Fz9YpQAJ",
           "bookable_online": true
         },
         {
@@ -893,8 +879,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-19T14:00",
-      "slots_next_4_weeks": 16,
+      "next_available": "2026-05-19T16:00",
+      "slots_next_4_weeks": 15,
       "physio_count": 17
     },
     {
@@ -998,12 +984,19 @@
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/chichester",
           "id": "001w00000160vB5AAI",
           "bookable_online": true
+        },
+        {
+          "name": "Mr James Silk",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/chichester",
+          "id": "001Pz00000hCzBrIAK",
+          "bookable_online": true
         }
       ],
       "online_bookable": true,
       "next_available": "2026-05-27T08:15",
-      "slots_next_4_weeks": 2,
-      "physio_count": 2
+      "slots_next_4_weeks": 3,
+      "physio_count": 3
     },
     {
       "slug": "chigwell",
@@ -1035,12 +1028,19 @@
           "title": "Physiotherapist",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/chingford",
           "bookable_online": false
+        },
+        {
+          "name": "Mrs Emma Nicholls",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/chingford",
+          "id": "0014J00000dkERvQAM",
+          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": null,
-      "slots_next_4_weeks": 0,
-      "physio_count": 1
+      "next_available": "2026-05-20T12:15",
+      "slots_next_4_weeks": 1,
+      "physio_count": 2
     },
     {
       "slug": "chislehurst",
@@ -1083,7 +1083,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-20T08:45",
-      "slots_next_4_weeks": 17,
+      "slots_next_4_weeks": 16,
       "physio_count": 2
     },
     {
@@ -1174,8 +1174,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-19T09:15",
-      "slots_next_4_weeks": 16,
+      "next_available": "2026-05-19T08:30",
+      "slots_next_4_weeks": 17,
       "physio_count": 2
     },
     {
@@ -1304,7 +1304,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-20T14:00",
-      "slots_next_4_weeks": 15,
+      "slots_next_4_weeks": 14,
       "physio_count": 11
     },
     {
@@ -1368,8 +1368,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T10:15",
-      "slots_next_4_weeks": 2,
+      "next_available": "2026-05-20T08:15",
+      "slots_next_4_weeks": 1,
       "physio_count": 8
     },
     {
@@ -1451,7 +1451,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-19T08:00",
-      "slots_next_4_weeks": 38,
+      "slots_next_4_weeks": 39,
       "physio_count": 6
     },
     {
@@ -1492,8 +1492,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-19T13:00",
-      "slots_next_4_weeks": 36,
+      "next_available": "2026-05-19T13:45",
+      "slots_next_4_weeks": 35,
       "physio_count": 4
     },
     {
@@ -1595,8 +1595,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-29T08:00",
-      "slots_next_4_weeks": 7,
+      "next_available": "2026-05-29T08:45",
+      "slots_next_4_weeks": 6,
       "physio_count": 5
     },
     {
@@ -1671,8 +1671,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-20T10:45",
-      "slots_next_4_weeks": 9,
+      "next_available": "2026-05-20T15:00",
+      "slots_next_4_weeks": 8,
       "physio_count": 1
     },
     {
@@ -1830,7 +1830,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-21T10:45",
-      "slots_next_4_weeks": 5,
+      "slots_next_4_weeks": 4,
       "physio_count": 3
     },
     {
@@ -1970,13 +1970,6 @@
           "bookable_online": true
         },
         {
-          "name": "Mr Will Corkin",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital",
-          "id": "00120000010rxbMAAQ",
-          "bookable_online": true
-        },
-        {
           "name": "Mrs Claire Beckett",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital",
@@ -1996,11 +1989,18 @@
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital",
           "id": "00120000010rxLTAAY",
           "bookable_online": true
+        },
+        {
+          "name": "Mr Will Corkin",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital",
+          "id": "00120000010rxbMAAQ",
+          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T11:00",
-      "slots_next_4_weeks": 41,
+      "next_available": "2026-05-18T15:00",
+      "slots_next_4_weeks": 37,
       "physio_count": 14
     },
     {
@@ -2026,13 +2026,6 @@
           "bookable_online": false
         },
         {
-          "name": "Mr Chris Tung",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-west-end",
-          "id": "0014J00000fERc2QAG",
-          "bookable_online": true
-        },
-        {
           "name": "Mrs Katrine Ross",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-west-end",
@@ -2041,9 +2034,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T09:00",
-      "slots_next_4_weeks": 10,
-      "physio_count": 4
+      "next_available": "2026-05-20T08:00",
+      "slots_next_4_weeks": 8,
+      "physio_count": 3
     },
     {
       "slug": "gloucester",
@@ -2083,8 +2076,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T11:30",
-      "slots_next_4_weeks": 19,
+      "next_available": "2026-05-19T11:30",
+      "slots_next_4_weeks": 17,
       "physio_count": 4
     },
     {
@@ -2102,19 +2095,12 @@
           "title": "Physiotherapist",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/gosforth",
           "bookable_online": false
-        },
-        {
-          "name": "Mr Robert Salter",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/gosforth",
-          "id": "0014J00000j2S9GQAU",
-          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-26T10:30",
-      "slots_next_4_weeks": 1,
-      "physio_count": 2
+      "next_available": null,
+      "slots_next_4_weeks": 0,
+      "physio_count": 1
     },
     {
       "slug": "guildford-gym",
@@ -2179,8 +2165,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T08:45",
-      "slots_next_4_weeks": 14,
+      "next_available": "2026-05-18T14:30",
+      "slots_next_4_weeks": 12,
       "physio_count": 8
     },
     {
@@ -2310,7 +2296,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-21T09:00",
-      "slots_next_4_weeks": 9,
+      "slots_next_4_weeks": 8,
       "physio_count": 6
     },
     {
@@ -2430,13 +2416,6 @@
           "bookable_online": false
         },
         {
-          "name": "Mr Jonathan Rooke",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/harrogate",
-          "id": "0012X00001uMxsIQAS",
-          "bookable_online": true
-        },
-        {
           "name": "Mr James Pacey",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/harrogate",
@@ -2449,11 +2428,18 @@
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/harrogate",
           "id": "0014J00000dmbkSQAQ",
           "bookable_online": true
+        },
+        {
+          "name": "Mr Jonathan Rooke",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/harrogate",
+          "id": "0012X00001uMxsIQAS",
+          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T07:30",
-      "slots_next_4_weeks": 23,
+      "next_available": "2026-05-18T14:30",
+      "slots_next_4_weeks": 19,
       "physio_count": 6
     },
     {
@@ -2534,8 +2520,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-22T13:00",
-      "slots_next_4_weeks": 8,
+      "next_available": "2026-05-27T12:00",
+      "slots_next_4_weeks": 5,
       "physio_count": 1
     },
     {
@@ -2736,22 +2722,22 @@
           "bookable_online": false
         },
         {
-          "name": "Mrs Neyomi Kothary",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/islington-london",
-          "id": "0014J00000bfPMMQA2",
-          "bookable_online": true
-        },
-        {
           "name": "Mr Nikolaos Kapetzoglou",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/islington-london",
           "id": "0014J00000swKauQAE",
           "bookable_online": true
+        },
+        {
+          "name": "Mrs Neyomi Kothary",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/islington-london",
+          "id": "0014J00000bfPMMQA2",
+          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T17:45",
+      "next_available": "2026-05-19T14:00",
       "slots_next_4_weeks": 4,
       "physio_count": 4
     },
@@ -2780,8 +2766,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-21T15:15",
-      "slots_next_4_weeks": 16,
+      "next_available": "2026-05-19T14:00",
+      "slots_next_4_weeks": 15,
       "physio_count": 2
     },
     {
@@ -3041,7 +3027,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-19T09:15",
-      "slots_next_4_weeks": 46,
+      "slots_next_4_weeks": 45,
       "physio_count": 4
     },
     {
@@ -3169,7 +3155,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-18T14:45",
-      "slots_next_4_weeks": 6,
+      "slots_next_4_weeks": 5,
       "physio_count": 2
     },
     {
@@ -3220,7 +3206,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-18T14:45",
-      "slots_next_4_weeks": 15,
+      "slots_next_4_weeks": 14,
       "physio_count": 2
     },
     {
@@ -3549,8 +3535,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-19T15:30",
-      "slots_next_4_weeks": 9,
+      "next_available": "2026-05-20T10:30",
+      "slots_next_4_weeks": 6,
       "physio_count": 5
     },
     {
@@ -3709,21 +3695,6 @@
       "physio_count": 2
     },
     {
-      "slug": "parkside",
-      "name": "Parkside",
-      "type": "hospital",
-      "address": "53 Parkside, ,, Wimbledon, ,, London, ,, SW19 5NX",
-      "phone": "02033403478",
-      "pricing": "£72",
-      "location_url": "https://www.nuffieldhealth.com/physiotherapy/parkside",
-      "booking_url": "https://book.nuffieldhealth.com/physio/appointments/parkside",
-      "physios": [],
-      "online_bookable": false,
-      "next_available": null,
-      "slots_next_4_weeks": 0,
-      "physio_count": 0
-    },
-    {
       "slug": "highgate",
       "name": "Physiotherapy at Highgate Hospital",
       "type": "hospital",
@@ -3732,6 +3703,21 @@
       "pricing": "£72",
       "location_url": "https://www.nuffieldhealth.com/physiotherapy/highgate",
       "booking_url": "https://book.nuffieldhealth.com/physio/appointments/highgate",
+      "physios": [],
+      "online_bookable": false,
+      "next_available": null,
+      "slots_next_4_weeks": 0,
+      "physio_count": 0
+    },
+    {
+      "slug": "parkside",
+      "name": "Physiotherapy at Parkside Hospital",
+      "type": "hospital",
+      "address": "53 Parkside, ,, Wimbledon, ,, London, ,, SW19 5NX",
+      "phone": "02033403478",
+      "pricing": "£72",
+      "location_url": "https://www.nuffieldhealth.com/physiotherapy/parkside",
+      "booking_url": "https://book.nuffieldhealth.com/physio/appointments/parkside",
       "physios": [],
       "online_bookable": false,
       "next_available": null,
@@ -3840,6 +3826,13 @@
           "bookable_online": true
         },
         {
+          "name": "Mrs Emma Pollard",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
+          "id": "001w0000019dQNhAAM",
+          "bookable_online": true
+        },
+        {
           "name": "Miss Ruth Jones",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
@@ -3855,9 +3848,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-29T08:45",
-      "slots_next_4_weeks": 8,
-      "physio_count": 17
+      "next_available": "2026-05-19T15:30",
+      "slots_next_4_weeks": 11,
+      "physio_count": 18
     },
     {
       "slug": "plymouth",
@@ -3912,8 +3905,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T08:00",
-      "slots_next_4_weeks": 5,
+      "next_available": "2026-05-18T14:30",
+      "slots_next_4_weeks": 3,
       "physio_count": 2
     },
     {
@@ -3964,8 +3957,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-22T13:30",
-      "slots_next_4_weeks": 4,
+      "next_available": "2026-05-28T13:00",
+      "slots_next_4_weeks": 3,
       "physio_count": 2
     },
     {
@@ -4016,8 +4009,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-26T14:30",
-      "slots_next_4_weeks": 3,
+      "next_available": "2026-05-28T14:30",
+      "slots_next_4_weeks": 2,
       "physio_count": 2
     },
     {
@@ -4052,7 +4045,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-27T08:30",
-      "slots_next_4_weeks": 10,
+      "slots_next_4_weeks": 8,
       "physio_count": 3
     },
     {
@@ -4540,7 +4533,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-19T13:30",
-      "slots_next_4_weeks": 20,
+      "slots_next_4_weeks": 19,
       "physio_count": 11
     },
     {
@@ -4571,19 +4564,12 @@
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/telford",
           "id": "0012X00001os1lcQAA",
           "bookable_online": true
-        },
-        {
-          "name": "Mr Adam Davies",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/telford",
-          "id": "0014J00000fFHwtQAG",
-          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T14:15",
-      "slots_next_4_weeks": 7,
-      "physio_count": 4
+      "next_available": "2026-05-27T12:30",
+      "slots_next_4_weeks": 4,
+      "physio_count": 3
     },
     {
       "slug": "the-holly",
@@ -4876,8 +4862,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T09:00",
-      "slots_next_4_weeks": 59,
+      "next_available": "2026-05-18T13:00",
+      "slots_next_4_weeks": 46,
       "physio_count": 1
     },
     {
@@ -4950,8 +4936,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T10:45",
-      "slots_next_4_weeks": 13,
+      "next_available": "2026-05-26T12:45",
+      "slots_next_4_weeks": 10,
       "physio_count": 1
     },
     {
@@ -5049,8 +5035,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-18T08:45",
-      "slots_next_4_weeks": 9,
+      "next_available": "2026-05-29T07:30",
+      "slots_next_4_weeks": 7,
       "physio_count": 2
     },
     {
