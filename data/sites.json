@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-23T08:05:18Z",
-  "scrape_duration_seconds": 225.9,
+  "last_updated": "2026-05-24T08:15:37Z",
+  "scrape_duration_seconds": 201.2,
   "total_sites": 132,
   "errors": [],
   "sites": [
@@ -1168,7 +1168,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-26T13:45",
-      "slots_next_4_weeks": 9,
+      "slots_next_4_weeks": 8,
       "physio_count": 2
     },
     {
@@ -2276,7 +2276,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-28T14:30",
-      "slots_next_4_weeks": 7,
+      "slots_next_4_weeks": 10,
       "physio_count": 6
     },
     {
@@ -2586,8 +2586,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-02T08:00",
-      "slots_next_4_weeks": 13,
+      "next_available": "2026-05-29T16:45",
+      "slots_next_4_weeks": 14,
       "physio_count": 10
     },
     {
@@ -2605,19 +2605,12 @@
           "title": "Physiotherapist",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/hertford",
           "bookable_online": false
-        },
-        {
-          "name": "Mrs Jenna Hattersley",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/hertford",
-          "id": "001Pz00000K8TXZIA3",
-          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-29T15:30",
-      "slots_next_4_weeks": 1,
-      "physio_count": 2
+      "next_available": null,
+      "slots_next_4_weeks": 0,
+      "physio_count": 1
     },
     {
       "slug": "ilford",
@@ -2813,8 +2806,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-01T13:30",
-      "slots_next_4_weeks": 2,
+      "next_available": "2026-06-01T14:15",
+      "slots_next_4_weeks": 1,
       "physio_count": 6
     },
     {
@@ -3022,7 +3015,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-26T09:00",
-      "slots_next_4_weeks": 45,
+      "slots_next_4_weeks": 44,
       "physio_count": 4
     },
     {
@@ -4241,12 +4234,19 @@
           "title": "Senior Physiotherapist",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/st-albans",
           "bookable_online": false
+        },
+        {
+          "name": "Mr James Whatley",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/st-albans",
+          "id": "0012X00001uNFItQAO",
+          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": null,
-      "slots_next_4_weeks": 0,
-      "physio_count": 2
+      "next_available": "2026-06-05T14:15",
+      "slots_next_4_weeks": 1,
+      "physio_count": 3
     },
     {
       "slug": "stockley-park",
