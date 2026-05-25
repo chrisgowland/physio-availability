@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-24T08:15:37Z",
-  "scrape_duration_seconds": 201.2,
+  "last_updated": "2026-05-25T09:46:41Z",
+  "scrape_duration_seconds": 224.2,
   "total_sites": 132,
   "errors": [],
   "sites": [
     {
       "slug": "aberdeen",
-      "name": "Aberdeen Physiotherapy",
+      "name": "Aberdeen",
       "type": "gym",
       "address": "Justice Mill Lane, ,, Aberdeen, ,, AB11 6EQ",
       "phone": "",
@@ -29,8 +29,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-28T09:00",
-      "slots_next_4_weeks": 19,
+      "next_available": "2026-05-28T10:15",
+      "slots_next_4_weeks": 18,
       "physio_count": 2
     },
     {
@@ -541,23 +541,23 @@
           "bookable_online": false
         },
         {
-          "name": "Mr Gerlando Disco Ambra",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bromley",
-          "id": "001Pz00000p4fVbIAI",
-          "bookable_online": true
-        },
-        {
           "name": "Ms Ashlee Otaru",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bromley",
           "id": "0014J00000qUpSBQA0",
           "bookable_online": true
+        },
+        {
+          "name": "Mr Gerlando Disco Ambra",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bromley",
+          "id": "001Pz00000p4fVbIAI",
+          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-24T11:45",
-      "slots_next_4_weeks": 40,
+      "next_available": "2026-05-27T14:00",
+      "slots_next_4_weeks": 44,
       "physio_count": 3
     },
     {
@@ -584,11 +584,19 @@
       "pricing": "£72",
       "location_url": "https://www.nuffieldhealth.com/physiotherapy/cambridge-gym",
       "booking_url": "https://book.nuffieldhealth.com/physio/appointments/cambridge-gym",
-      "physios": [],
+      "physios": [
+        {
+          "name": "Mrs Rajlakshmi Nair",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/cambridge-gym",
+          "id": "001Pz00000NiqsEIAR",
+          "bookable_online": true
+        }
+      ],
       "online_bookable": true,
-      "next_available": null,
-      "slots_next_4_weeks": 0,
-      "physio_count": 0
+      "next_available": "2026-05-27T09:00",
+      "slots_next_4_weeks": 1,
+      "physio_count": 1
     },
     {
       "slug": "cannock",
@@ -971,6 +979,13 @@
           "bookable_online": false
         },
         {
+          "name": "Mr Chris Lelliott",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/chichester",
+          "id": "0014J00000I6f6QQAR",
+          "bookable_online": true
+        },
+        {
           "name": "Mr Dean Yeoman",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/chichester",
@@ -986,9 +1001,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-27T08:15",
-      "slots_next_4_weeks": 11,
-      "physio_count": 3
+      "next_available": "2026-05-26T12:00",
+      "slots_next_4_weeks": 12,
+      "physio_count": 4
     },
     {
       "slug": "chigwell",
@@ -1611,7 +1626,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-06-02T09:30",
-      "slots_next_4_weeks": 11,
+      "slots_next_4_weeks": 9,
       "physio_count": 6
     },
     {
@@ -3365,13 +3380,6 @@
           "bookable_online": false
         },
         {
-          "name": "Mr Robert Salter",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/newcastle",
-          "id": "0014J00000j2S9GQAU",
-          "bookable_online": true
-        },
-        {
           "name": "Mrs Helen Altunsoy",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/newcastle",
@@ -3380,9 +3388,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-03T13:30",
-      "slots_next_4_weeks": 2,
-      "physio_count": 8
+      "next_available": "2026-06-04T14:15",
+      "slots_next_4_weeks": 1,
+      "physio_count": 7
     },
     {
       "slug": "newcastle-under-lyme",
@@ -3836,13 +3844,6 @@
           "bookable_online": false
         },
         {
-          "name": "Miss Jen Willingham",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
-          "id": "00120000010rxPVAAY",
-          "bookable_online": true
-        },
-        {
           "name": "Miss Ruth Jones",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds",
@@ -3858,9 +3859,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-27T08:30",
-      "slots_next_4_weeks": 8,
-      "physio_count": 17
+      "next_available": "2026-06-02T13:30",
+      "slots_next_4_weeks": 7,
+      "physio_count": 16
     },
     {
       "slug": "plymouth",
@@ -3938,8 +3939,8 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-26T07:30",
-      "slots_next_4_weeks": 15,
+      "next_available": "2026-05-26T07:00",
+      "slots_next_4_weeks": 14,
       "physio_count": 1
     },
     {
@@ -4062,7 +4063,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-06-01T16:00",
-      "slots_next_4_weeks": 7,
+      "slots_next_4_weeks": 6,
       "physio_count": 4
     },
     {
@@ -4234,19 +4235,12 @@
           "title": "Senior Physiotherapist",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/st-albans",
           "bookable_online": false
-        },
-        {
-          "name": "Mr James Whatley",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/st-albans",
-          "id": "0012X00001uNFItQAO",
-          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-05T14:15",
-      "slots_next_4_weeks": 1,
-      "physio_count": 3
+      "next_available": null,
+      "slots_next_4_weeks": 0,
+      "physio_count": 2
     },
     {
       "slug": "stockley-park",
