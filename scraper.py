@@ -565,11 +565,13 @@ def _process_days(days: list) -> dict:
     Returns availability summary dict.
     """
     today = date.today()
+    seven_days_out = today + timedelta(days=7)
     four_weeks_out = today + timedelta(weeks=4)
 
     physios_by_id: dict[str, dict] = {}
     next_available: str | None = None
     total_slots = 0
+    slots_within_7_days = 0
     has_any_active_day = False
 
     for day in days:
@@ -596,11 +598,15 @@ def _process_days(days: list) -> dict:
         if d < today or d > four_weeks_out:
             continue
 
+        within_7 = d <= seven_days_out
+
         for slot in slots:
             if not isinstance(slot, dict):
                 continue
 
             total_slots += 1
+            if within_7:
+                slots_within_7_days += 1
 
             pid = slot.get("professional_id", "")
             pname = _clean_professional_name(slot.get("professional_name", ""))
@@ -618,6 +624,7 @@ def _process_days(days: list) -> dict:
     return {
         "online_bookable": has_any_active_day,
         "next_available": next_available,
+        "slots_next_7_days": slots_within_7_days,
         "slots_next_4_weeks": total_slots,
         "physios_from_booking": list(physios_by_id.values()),
     }
@@ -627,6 +634,7 @@ def _empty_availability() -> dict:
     return {
         "online_bookable": False,
         "next_available": None,
+        "slots_next_7_days": 0,
         "slots_next_4_weeks": 0,
         "physios_from_booking": [],
     }
@@ -668,6 +676,7 @@ def scrape_site(slug: str, use_playwright: bool = False) -> dict:
         **location,
         "online_bookable": availability["online_bookable"],
         "next_available": availability["next_available"],
+        "slots_next_7_days": availability["slots_next_7_days"],
         "slots_next_4_weeks": availability["slots_next_4_weeks"],
         "physio_count": len(location["physios"]),
     }

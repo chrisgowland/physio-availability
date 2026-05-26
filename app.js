@@ -50,6 +50,7 @@ function renderStats(json) {
   const bookable     = sites.filter(s => s.online_bookable).length;
   const withSlots    = sites.filter(s => s.slots_next_4_weeks > 0).length;
   const totalSlots   = sites.reduce((n, s) => n + (s.slots_next_4_weeks || 0), 0);
+  const totalSlots7  = sites.reduce((n, s) => n + (s.slots_next_7_days || 0), 0);
 
   // % sites with no appointment in the next 7 days
   const now = Date.now();
@@ -73,6 +74,7 @@ function renderStats(json) {
   document.getElementById("statBookable").textContent    = bookable.toLocaleString();
   document.getElementById("statAvailable").textContent   = withSlots.toLocaleString();
   document.getElementById("statTotalSlots").textContent  = totalSlots.toLocaleString();
+  document.getElementById("statTotalSlots7").textContent = totalSlots7.toLocaleString();
   document.getElementById("statNoAppt7Days").textContent = pctNoAppt7;
   document.getElementById("statAvgSlots").textContent    = avgSlots;
 }
@@ -157,6 +159,8 @@ function sortSites() {
       case "name_desc":  return b.name.localeCompare(a.name);
       case "slots_desc": return (b.slots_next_4_weeks || 0) - (a.slots_next_4_weeks || 0);
       case "slots_asc":  return (a.slots_next_4_weeks || 0) - (b.slots_next_4_weeks || 0);
+      case "slots7_desc": return (b.slots_next_7_days || 0) - (a.slots_next_7_days || 0);
+      case "slots7_asc":  return (a.slots_next_7_days || 0) - (b.slots_next_7_days || 0);
       case "next_asc":   return compareNullLast(a.next_available, b.next_available, 1);
       case "next_desc":  return compareNullLast(a.next_available, b.next_available, -1);
       case "physios_desc": return (b.physio_count || 0) - (a.physio_count || 0);
@@ -220,6 +224,7 @@ function renderRow(site) {
     ? renderNextAvailable(site.next_available)
     : `<span class="next-none">No online slots</span>`;
 
+  const slots7 = renderSlotsBadge(site.slots_next_7_days || 0);
   const slots = renderSlotsBadge(site.slots_next_4_weeks || 0);
 
   const bookLink = site.online_bookable
@@ -238,6 +243,7 @@ function renderRow(site) {
     <td class="col-physios">${physioCell}</td>
     <td class="col-bookable">${bookable}</td>
     <td class="col-next">${nextAvail}</td>
+    <td class="col-slots">${slots7}</td>
     <td class="col-slots">${slots}</td>
     <td class="col-actions">
       <div class="action-links">

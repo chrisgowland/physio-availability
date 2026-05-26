@@ -52,6 +52,10 @@
       <span class="stat-value" id="statTotalSlots">–</span>
       <span class="stat-label">Total Appointments (4 wks)</span>
     </div>
+    <div class="stat-card stat-card--blue">
+      <span class="stat-value" id="statTotalSlots7">–</span>
+      <span class="stat-label">Total Appointments (7 days)</span>
+    </div>
     <div class="stat-card stat-card--amber">
       <span class="stat-value" id="statNoAppt7Days">–</span>
       <span class="stat-label">Sites with No Appt (7 days)</span>
@@ -98,7 +102,8 @@
       <label class="filter-label">Sort by</label>
       <select id="sortSelect" class="filter-select">
         <option value="name_asc">Name A→Z</option>
-        <option value="slots_desc">Most slots first</option>
+        <option value="slots7_desc">Most slots (7 days)</option>
+        <option value="slots_desc">Most slots (4 wks)</option>
         <option value="next_asc">Next available soonest</option>
         <option value="physios_desc">Most physios first</option>
       </select>
@@ -125,6 +130,7 @@
           <th class="col-physios sortable" data-sort="physios_desc">Physios</th>
           <th class="col-bookable">Online Booking</th>
           <th class="col-next sortable" data-sort="next_asc">Next Available</th>
+          <th class="col-slots sortable" data-sort="slots7_desc">Slots (7 days)</th>
           <th class="col-slots sortable" data-sort="slots_desc">Slots (4 wks)</th>
           <th class="col-actions">Links</th>
         </tr>
@@ -138,6 +144,6 @@
 
 
 
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>
