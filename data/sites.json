@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-30T08:16:15Z",
-  "scrape_duration_seconds": 222.7,
+  "last_updated": "2026-05-31T08:35:16Z",
+  "scrape_duration_seconds": 222.6,
   "total_sites": 132,
   "errors": [],
   "sites": [
@@ -29,9 +29,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-02T13:15",
-      "slots_next_7_days": 6,
-      "slots_next_4_weeks": 19,
+      "next_available": "2026-06-04T10:00",
+      "slots_next_7_days": 5,
+      "slots_next_4_weeks": 18,
       "physio_count": 2
     },
     {
@@ -607,7 +607,7 @@
       ],
       "online_bookable": true,
       "next_available": "2026-05-31T14:00",
-      "slots_next_7_days": 20,
+      "slots_next_7_days": 24,
       "slots_next_4_weeks": 49,
       "physio_count": 3
     },
@@ -636,12 +636,34 @@
       "pricing": "£72",
       "location_url": "https://www.nuffieldhealth.com/physiotherapy/cambridge-gym",
       "booking_url": "https://book.nuffieldhealth.com/physio/appointments/cambridge-gym",
-      "physios": [],
+      "physios": [
+        {
+          "name": "Miss Emily O'Hare",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/cambridge-gym",
+          "id": "001w0000015BYjFAAW",
+          "bookable_online": true
+        },
+        {
+          "name": "Mr Sanchit Jain",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/cambridge-gym",
+          "id": "0014J00000kqygTQAQ",
+          "bookable_online": true
+        },
+        {
+          "name": "Mrs Rajlakshmi Nair",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/cambridge-gym",
+          "id": "001Pz00000NiqsEIAR",
+          "bookable_online": true
+        }
+      ],
       "online_bookable": true,
-      "next_available": null,
-      "slots_next_7_days": 0,
-      "slots_next_4_weeks": 0,
-      "physio_count": 0
+      "next_available": "2026-06-03T10:00",
+      "slots_next_7_days": 1,
+      "slots_next_4_weeks": 4,
+      "physio_count": 3
     },
     {
       "slug": "cannock",
@@ -773,9 +795,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-04T09:00",
-      "slots_next_7_days": 4,
-      "slots_next_4_weeks": 16,
+      "next_available": "2026-06-04T09:45",
+      "slots_next_7_days": 3,
+      "slots_next_4_weeks": 15,
       "physio_count": 14
     },
     {
@@ -990,20 +1012,13 @@
           "title": "Inpatient Physiotherapist",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/chester",
           "bookable_online": false
-        },
-        {
-          "name": "Ms Amy Gregory-Cowx",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/chester",
-          "id": "001w000001ZfsewAAB",
-          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-11T11:45",
+      "next_available": null,
       "slots_next_7_days": 0,
-      "slots_next_4_weeks": 1,
-      "physio_count": 9
+      "slots_next_4_weeks": 0,
+      "physio_count": 8
     },
     {
       "slug": "chesterfield",
@@ -1067,20 +1082,12 @@
       "pricing": "£72",
       "location_url": "https://www.nuffieldhealth.com/physiotherapy/chigwell",
       "booking_url": "https://book.nuffieldhealth.com/physio/appointments/chigwell",
-      "physios": [
-        {
-          "name": "Ms Ewa Tkaczyk",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/chigwell",
-          "id": "001Pz00000Sac6gIAB",
-          "bookable_online": true
-        }
-      ],
+      "physios": [],
       "online_bookable": true,
-      "next_available": "2026-06-01T09:30",
-      "slots_next_7_days": 1,
-      "slots_next_4_weeks": 1,
-      "physio_count": 1
+      "next_available": null,
+      "slots_next_7_days": 0,
+      "slots_next_4_weeks": 0,
+      "physio_count": 0
     },
     {
       "slug": "chingford",
@@ -1358,13 +1365,6 @@
           "bookable_online": false
         },
         {
-          "name": "Mr Arjun Tarun",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/derby-gym",
-          "id": "001Pz00000WpHvrIAF",
-          "bookable_online": true
-        },
-        {
           "name": "Mr Richard Baines",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/derby-gym",
@@ -1377,12 +1377,19 @@
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/derby-gym",
           "id": "00120000010rxMHAAY",
           "bookable_online": true
+        },
+        {
+          "name": "Mr Arjun Tarun",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/derby-gym",
+          "id": "001Pz00000WpHvrIAF",
+          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-04T17:30",
-      "slots_next_7_days": 1,
-      "slots_next_4_weeks": 35,
+      "next_available": "2026-06-08T11:15",
+      "slots_next_7_days": 0,
+      "slots_next_4_weeks": 33,
       "physio_count": 11
     },
     {
@@ -1462,7 +1469,7 @@
       "online_bookable": true,
       "next_available": "2026-06-05T08:30",
       "slots_next_7_days": 1,
-      "slots_next_4_weeks": 14,
+      "slots_next_4_weeks": 13,
       "physio_count": 10
     },
     {
@@ -2645,13 +2652,6 @@
           "bookable_online": true
         },
         {
-          "name": "Mrs Katie Thorne-Jones",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/haywards-heath",
-          "id": "00120000010v5e6AAA",
-          "bookable_online": true
-        },
-        {
           "name": "Miss Georgina Little",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/haywards-heath",
@@ -2662,8 +2662,8 @@
       "online_bookable": true,
       "next_available": "2026-06-03T12:30",
       "slots_next_7_days": 1,
-      "slots_next_4_weeks": 4,
-      "physio_count": 9
+      "slots_next_4_weeks": 3,
+      "physio_count": 8
     },
     {
       "slug": "hemel-hempstead",
@@ -2937,8 +2937,8 @@
       ],
       "online_bookable": true,
       "next_available": "2026-06-02T08:00",
-      "slots_next_7_days": 9,
-      "slots_next_4_weeks": 19,
+      "slots_next_7_days": 8,
+      "slots_next_4_weeks": 18,
       "physio_count": 2
     },
     {
@@ -4204,9 +4204,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-09T08:30",
-      "slots_next_7_days": 0,
-      "slots_next_4_weeks": 10,
+      "next_available": "2026-06-02T16:15",
+      "slots_next_7_days": 1,
+      "slots_next_4_weeks": 11,
       "physio_count": 1
     },
     {
@@ -5203,9 +5203,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-05-30T12:30",
-      "slots_next_7_days": 23,
-      "slots_next_4_weeks": 46,
+      "next_available": "2026-06-01T11:15",
+      "slots_next_7_days": 20,
+      "slots_next_4_weeks": 43,
       "physio_count": 1
     },
     {
