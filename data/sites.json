@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-20T08:40:30Z",
-  "scrape_duration_seconds": 213.8,
+  "last_updated": "2026-06-21T09:35:15Z",
+  "scrape_duration_seconds": 226.8,
   "total_sites": 132,
   "errors": [],
   "sites": [
@@ -95,7 +95,7 @@
     },
     {
       "slug": "barbican-medical-centre",
-      "name": "Barbican Medical Centre Physiotherapy",
+      "name": "Barbican Medical Centre",
       "type": "hospital",
       "address": "Barbican Fitness and Wellbeing Centre, ,, 97 Aldersgate, Barbican, ,, London, ,, EC1A 4LX",
       "phone": "",
@@ -168,7 +168,7 @@
     },
     {
       "slug": "bishops-stortford",
-      "name": "Bishops Stortford",
+      "name": "Bishop's Stortford Physiotherapy",
       "type": "gym",
       "address": "Anchor Street, ,, Bishop's Stortford, ,, CM23 3BP",
       "phone": "",
@@ -584,24 +584,24 @@
           "bookable_online": false
         },
         {
-          "name": "Mr Gerlando Disco Ambra",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bromley",
-          "id": "001Pz00000p4fVbIAI",
-          "bookable_online": true
-        },
-        {
           "name": "Ms Ashlee Otaru",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bromley",
           "id": "0014J00000qUpSBQA0",
           "bookable_online": true
+        },
+        {
+          "name": "Mr Gerlando Disco Ambra",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bromley",
+          "id": "001Pz00000p4fVbIAI",
+          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-21T09:45",
-      "slots_next_7_days": 15,
-      "slots_next_4_weeks": 40,
+      "next_available": "2026-06-22T08:45",
+      "slots_next_7_days": 16,
+      "slots_next_4_weeks": 39,
       "physio_count": 3
     },
     {
@@ -795,20 +795,13 @@
           "title": "Physiotherapist",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/chelmsford",
           "bookable_online": false
-        },
-        {
-          "name": "Ms Ropafadzo Gunduza",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/chelmsford",
-          "id": "0014J00000qUVeIQAW",
-          "bookable_online": true
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-24T15:15",
-      "slots_next_7_days": 1,
-      "slots_next_4_weeks": 1,
-      "physio_count": 2
+      "next_available": null,
+      "slots_next_7_days": 0,
+      "slots_next_4_weeks": 0,
+      "physio_count": 1
     },
     {
       "slug": "cheltenham",
@@ -1028,7 +1021,7 @@
     },
     {
       "slug": "chichester",
-      "name": "Chichester",
+      "name": "Chichester Physiotherapist",
       "type": "hospital",
       "address": "Chichester Gate, (off Stockbridge Road), ,, Chichester, ,, PO19 8EL",
       "phone": "",
@@ -1550,8 +1543,8 @@
       ],
       "online_bookable": true,
       "next_available": "2026-06-24T08:30",
-      "slots_next_7_days": 3,
-      "slots_next_4_weeks": 14,
+      "slots_next_7_days": 2,
+      "slots_next_4_weeks": 13,
       "physio_count": 3
     },
     {
@@ -1663,9 +1656,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-29T12:30",
-      "slots_next_7_days": 0,
-      "slots_next_4_weeks": 14,
+      "next_available": "2026-06-22T12:00",
+      "slots_next_7_days": 1,
+      "slots_next_4_weeks": 15,
       "physio_count": 7
     },
     {
@@ -2020,20 +2013,13 @@
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital",
           "id": "00120000012fi2jAAA",
           "bookable_online": true
-        },
-        {
-          "name": "Mrs Judith Forshaw",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital",
-          "id": "00120000010rxWoAAI",
-          "bookable_online": true
         }
       ],
       "online_bookable": true,
       "next_available": "2026-06-23T14:45",
       "slots_next_7_days": 1,
-      "slots_next_4_weeks": 2,
-      "physio_count": 11
+      "slots_next_4_weeks": 1,
+      "physio_count": 10
     },
     {
       "slug": "gloucester",
@@ -2274,17 +2260,17 @@
           "bookable_online": false
         },
         {
-          "name": "Ms Lindsay Clare",
-          "title": "",
-          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/guiseley",
-          "id": "0014J00000Ge1mPQAR",
-          "bookable_online": true
-        },
-        {
           "name": "Ms Suzanne Turner",
           "title": "",
           "profile_url": "https://www.nuffieldhealth.com/physiotherapy/guiseley",
           "id": "001w000001YAb3BAAT",
+          "bookable_online": true
+        },
+        {
+          "name": "Ms Lindsay Clare",
+          "title": "",
+          "profile_url": "https://www.nuffieldhealth.com/physiotherapy/guiseley",
+          "id": "0014J00000Ge1mPQAR",
           "bookable_online": true
         },
         {
@@ -2296,9 +2282,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-20T12:00",
-      "slots_next_7_days": 3,
-      "slots_next_4_weeks": 8,
+      "next_available": "2026-06-23T09:30",
+      "slots_next_7_days": 2,
+      "slots_next_4_weeks": 11,
       "physio_count": 7
     },
     {
@@ -2805,9 +2791,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-23T08:00",
-      "slots_next_7_days": 5,
-      "slots_next_4_weeks": 21,
+      "next_available": "2026-06-25T11:30",
+      "slots_next_7_days": 4,
+      "slots_next_4_weeks": 20,
       "physio_count": 2
     },
     {
@@ -3541,7 +3527,7 @@
     },
     {
       "slug": "norwich",
-      "name": "Norwich",
+      "name": "Norwich Physiotherapy",
       "type": "gym",
       "address": "Barrack Street, ,, Norwich, ,, NR3 1TS",
       "phone": "",
@@ -3940,7 +3926,7 @@
     },
     {
       "slug": "plymouth",
-      "name": "Plymouth",
+      "name": "Plymouth (Gym) Physiotherapy",
       "type": "gym",
       "address": "Barbican Leisure Park, Barbican Approach, Coxside, ,, Plymouth, ,, PL4 0LG",
       "phone": "",
@@ -4179,9 +4165,9 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-23T17:30",
-      "slots_next_7_days": 2,
-      "slots_next_4_weeks": 5,
+      "next_available": "2026-06-23T18:45",
+      "slots_next_7_days": 1,
+      "slots_next_4_weeks": 4,
       "physio_count": 4
     },
     {
@@ -4289,7 +4275,7 @@
       "online_bookable": true,
       "next_available": "2026-06-24T08:15",
       "slots_next_7_days": 4,
-      "slots_next_4_weeks": 29,
+      "slots_next_4_weeks": 26,
       "physio_count": 11
     },
     {
@@ -4429,14 +4415,14 @@
         }
       ],
       "online_bookable": true,
-      "next_available": "2026-06-29T13:00",
+      "next_available": "2026-06-29T13:45",
       "slots_next_7_days": 0,
-      "slots_next_4_weeks": 2,
+      "slots_next_4_weeks": 1,
       "physio_count": 3
     },
     {
       "slug": "swindon",
-      "name": "Swindon",
+      "name": "Swindon Physiotherapy",
       "type": "gym",
       "address": "Greenbridge Retail Park, Garrard Way, ,, Swindon, ,, SN3 3SQ",
       "phone": "",
